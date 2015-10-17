@@ -1,0 +1,2 @@
+c:\users\olire\documents\visual studio 2015\Projects\MindWaveBc\MindSetUWA\MindSetUWA.csproj;arm
+c:\users\olire\documents\visual studio 2015\Projects\MindWaveBc\MindWaveBc\MindWaveBc.csproj;arm
