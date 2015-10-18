@@ -28,7 +28,7 @@ namespace MindSetUWA
         void ParseHeadsetPackets();
 
         /// <summary>
-        /// Returns a realtime status of the connection to a headset in string format.
+        /// Return a realtime status of the connection to a headset in string format.
         /// </summary>
         string ConnectionStatusString();
 
