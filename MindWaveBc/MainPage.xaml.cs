@@ -34,7 +34,7 @@ namespace MindWaveBc
         private void button_Click(object sender, RoutedEventArgs e)
         {
             //Initiate bluetooth connection to a headset named "MindWave Mobile"
-            MyHeadset.Connect("MindWave Mobile");
+            MyHeadset.ConnectBluetooth("MindWave Mobile");
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)

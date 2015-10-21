@@ -12,7 +12,7 @@ using System.Diagnostics;
 
 namespace MindSetUWA
 {
-    public class MindSetConnection 
+    public partial class MindSetConnection : IMindwave
     {
         StreamSocket socket;
         DataReader reader;
@@ -36,7 +36,7 @@ namespace MindSetUWA
         /// Opens a bluetooth connnection to a MindWave Mobile headset.
         /// Please specify a Bluetooth name (Usually "MindWave Mobile") in the first parameter.
         /// </summary>
-        public async void Connect(String BTname)
+        public async void ConnectBluetooth(String BTname)
         {
             try
             {
@@ -59,7 +59,7 @@ namespace MindSetUWA
         /// <summary>
         /// Closes a already established bluetooth connnection to a MindWave Mobile headset.
         /// </summary>
-        public void Disconnect()
+        public void DisconnectBluetooth()
         {
             socket.Dispose();
         }
@@ -126,7 +126,14 @@ namespace MindSetUWA
             return resultArray;
         }
 
- 
-      
+        void IMindwave.ParseHeadsetPackets()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Dispose()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

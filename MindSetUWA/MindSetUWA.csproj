@@ -113,6 +113,7 @@
     <Compile Include="MindsetDataStruct.cs" />
     <Compile Include="Common\MindSetExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="LegacyConnect.cs" />
     <Content Include="Properties\MindSetUWA.rd.xml" />
     <Content Include="README_EN.txt" />
   </ItemGroup>

@@ -13,12 +13,12 @@ namespace MindSetUWA
         /// Opens a bluetooth connnection to a MindWave Mobile headset.
         /// Please specify a Bluetooth name (Usually "MindWave Mobile") in the first parameter.
         /// </summary>
-        void Connect(String BTname);
+        void ConnectBluetooth(String BTname);
 
         /// <summary>
         /// Closes a already established bluetooth connnection to a MindWave Mobile headset.
         /// </summary>
-        void Disconnect();
+        void DisconnectBluetooth();
 
         /// <summary>
         /// Returns a realtime status of the connection to a headset in MindSetUWA.EMindSetStatus format.
