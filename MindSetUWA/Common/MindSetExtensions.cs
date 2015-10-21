@@ -2,18 +2,6 @@
 
 namespace MindSetUWA.Common
 {
-    public static class PacketValue
-    {
-        public static int Get(byte[] usefulDataPacket, int beginInclusive, int endInclusive)
-        {
-            // From: http://www.java2s.com/Code/CSharp/Data-Types/ReadInt24frombytearray.htm
-
-            return (usefulDataPacket[beginInclusive] << 16)
-                + (usefulDataPacket[beginInclusive + 1] << 8)
-                + (usefulDataPacket[beginInclusive + 2]);
-        }
-    }
-
     public static class BufferBytes
     {
         public static byte[] Get(IBuffer buffer)
@@ -25,8 +13,6 @@ namespace MindSetUWA.Common
                 return bytes;
             }
         }
-
-
     }
 
     public static class HeaderIndex
@@ -47,6 +33,17 @@ namespace MindSetUWA.Common
             }
             return null;
         }
+    }
 
+    public static class PacketValue
+    {
+        public static int Get(byte[] usefulDataPacket, int beginInclusive, int endInclusive)
+        {
+            // From: http://www.java2s.com/Code/CSharp/Data-Types/ReadInt24frombytearray.htm
+
+            return (usefulDataPacket[beginInclusive] << 16)
+                + (usefulDataPacket[beginInclusive + 1] << 8)
+                + (usefulDataPacket[beginInclusive + 2]);
+        }
     }
 }

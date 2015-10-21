@@ -11,6 +11,5 @@
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="100" Margin="-203,-2197,0,0" VerticalAlignment="Top" Width="100"/>
         <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="10,139,0,0" VerticalAlignment="Top" Height="96" Width="340" Click="button_Click"/>
         <Button x:Name="button1" Content="Button" HorizontalAlignment="Left" Margin="10,448,0,0" VerticalAlignment="Top" Height="53" Width="340" Click="button1_Click"/>
-
     </Grid>
 </Page>

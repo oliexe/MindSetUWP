@@ -1,30 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
+﻿// Include the MindSetUWA Library.
+using MindSetUWA;
+using System.Diagnostics;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
-using System.Diagnostics;
-using Windows.ApplicationModel.Background;
-using System.ComponentModel;
-
-// Include the MindSetUWA Library.
-using MindSetUWA;
 
 namespace MindWaveBc
 {
     public sealed partial class MainPage : Page
     {
         //Create a new instance of MindSetConnection class.
-        MindSetConnection MyHeadset = new MindSetConnection();
+        private MindSetConnection MyHeadset = new MindSetConnection();
 
         public MainPage()
         {

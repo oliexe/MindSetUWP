@@ -14,3 +14,4 @@ C:\Users\olire\Documents\GitHub\MindSetUWA\MindSetUWA\obj\x64\Debug\pri.resfiles
 C:\Users\olire\Documents\GitHub\MindSetUWA\MindSetUWA\obj\x64\Debug\qualifiers.txt
 C:\Users\olire\Documents\GitHub\MindSetUWA\MindSetUWA\obj\x64\Debug\qualifiers.txt.intermediate
 C:\Users\olire\Documents\GitHub\MindSetUWA\MindSetUWA\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\olire\Documents\GitHub\MindSetUWA\MindSetUWA\obj\x64\Debug\MindSetUWA.csprojResolveAssemblyReference.cache
