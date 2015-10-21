@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.Networking;
 using Windows.Networking.Sockets;
 
 namespace MindSetUWA
@@ -16,21 +17,25 @@ namespace MindSetUWA
         void ConnectBluetooth(String BTname);
 
         /// <summary>
-        /// Closes a already established bluetooth connnection to a MindWave Mobile headset.
+        /// LEGACY MODE - Opens a packet connnection to a legacy MindWave headset that uses 2.4Ghz RF dongle.
+        /// However, this is NOT compatible in Windows Phone platform and require a ThinkGear Connector installed on a target machine.
+        /// Specify a hostname (eg. localhost) and port
         /// </summary>
-        void DisconnectBluetooth();
+        void ThinkGearConnect(HostName hostname, string port);
+
+        /// <summary>
+        /// Closes a already established connection to a headset.
+        /// </summary>
+        void Disconnect();
 
         /// <summary>
         /// Returns a realtime status of the connection to a headset in MindSetUWA.EMindSetStatus format.
         /// </summary>
         EMindSetStatus ConnectionStatus();
 
-        void ParseHeadsetPackets();
-
         /// <summary>
         /// Return a realtime status of the connection to a headset in string format.
         /// </summary>
         string ConnectionStatusString();
-
     }
 }

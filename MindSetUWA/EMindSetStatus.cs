@@ -8,14 +8,18 @@ namespace MindSetUWA
 {
     public enum EMindSetStatus
     {
-        Connecting,
+        Connecting, //Connection in progress
 
-        Connected,
+        ConnectedBT, //Connected to a bluetooth headset
 
-        BTConnectionFail,
+        ConnectedTG, //Connected to a RF headset using ThinkGear Connector
 
-        ParseFail,
+        BTConnectionFail, //Failed Bluetooth connection (Is HeadSet paired to device ?)
 
-        LowEEGSignal
+        TGConnectionFail, //Failed ThinkGear connection (Is ThinkGear installed ?)
+
+        ParseFail, //Packet parsing error
+
+        LowEEGSignal // EEG Signal level is NOT 0
     }
 }

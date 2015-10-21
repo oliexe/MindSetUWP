@@ -1,0 +1,2 @@
+C:\Users\olire\Documents\GitHub\MindSetUWA\MindSetUWA\MindSetUWA.csproj;x64
+C:\Users\olire\Documents\GitHub\MindSetUWA\MindWaveBc\MindSetUWA_DemoApp.csproj;x64

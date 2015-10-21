@@ -11,7 +11,13 @@ namespace MindSetUWA
 {
     public partial class MindSetConnection
     {
+        // http://developer.neurosky.com/docs/lib/exe/fetch.php?media=app_notes:thinkgear_socket_protocol.pdf
 
+        /// <summary>
+        /// Opens a packet connnection to a legacy MindWave headset that uses 2.4Ghz RF dongle.
+        /// This is compatible in Windows Phone however it requires a ThinkGear Connector installed on a target machine and connector only accepts local connection.
+        /// Specify a hostname (eg. localhost) and port.
+        /// </summary>
         public async void ThinkGearConnect(HostName hostname, string port)
         {
             StreamSocket socket = new StreamSocket();

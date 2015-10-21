@@ -59,10 +59,17 @@ namespace MindSetUWA
         /// <summary>
         /// Closes a already established bluetooth connnection to a MindWave Mobile headset.
         /// </summary>
-        public void DisconnectBluetooth()
+        public void Disconnect()
         {
             socket.Dispose();
         }
+
+
+        public void Dispose()
+        {
+            throw new NotImplementedException();
+        }
+
 
         private async void ParseHeadsetPackets()
         {
@@ -89,7 +96,7 @@ namespace MindSetUWA
 
                     // Packet is all right
                     var PctData = resultArray.Skip(indexOfUsefulDataHeader.Value).Take(PacketLenght + 4).ToArray();
-                    Status = EMindSetStatus.Connected;    
+                    Status = EMindSetStatus.ConnectedBT;    
 
                     // http://wearcam.org/ece516/mindset_communications_protocol.pdf
                     RealtimeData = new MindsetDataStruct(PctData[4], //Signal Quality
@@ -126,14 +133,6 @@ namespace MindSetUWA
             return resultArray;
         }
 
-        void IMindwave.ParseHeadsetPackets()
-        {
-            throw new NotImplementedException();
-        }
 
-        public void Dispose()
-        {
-            throw new NotImplementedException();
-        }
     }
 }
