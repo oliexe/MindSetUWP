@@ -22,7 +22,7 @@
     <AppXManifest Include="C:\Users\olire\Documents\GitHub\MindSetUWA\MindWaveBc\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-21T09:23:09.204</Modified>
+      <Modified>2015-11-02T13:08:46.559</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -70,7 +70,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWA\MindWaveBc\bin\x64\Debug\Core\entrypoint\MindWaveBc.exe">
       <PackagePath>entrypoint\MindWaveBc.exe</PackagePath>
-      <Modified>2015-10-21T09:22:31.696</Modified>
+      <Modified>2015-11-02T13:08:41.892</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWA\MindWaveBc\bin\x64\Debug\Core\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -98,7 +98,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWA\MindWaveBc\bin\x64\Debug\Core\MindSetUWA.dll">
       <PackagePath>MindSetUWA.dll</PackagePath>
-      <Modified>2015-10-21T09:22:19.164</Modified>
+      <Modified>2015-11-02T12:12:08.816</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWA\MindWaveBc\bin\x64\Debug\Core\MindSetUWA\Properties\MindSetUWA.rd.xml">
       <PackagePath>MindSetUWA\Properties\MindSetUWA.rd.xml</PackagePath>
@@ -108,13 +108,29 @@
       <PackagePath>MindSetUWA\README_EN.txt</PackagePath>
       <Modified>2015-10-16T11:35:04.415</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWA\MindWaveBc\bin\x64\Debug\Core\MindSetUWP.dll">
+      <PackagePath>MindSetUWP.dll</PackagePath>
+      <Modified>2015-11-02T13:08:37.772</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWA\MindWaveBc\bin\x64\Debug\Core\MindSetUWP\LateX Documentation\BTpair.png">
+      <PackagePath>MindSetUWP\LateX Documentation\BTpair.png</PackagePath>
+      <Modified>2015-11-02T12:48:55.098</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWA\MindWaveBc\bin\x64\Debug\Core\MindSetUWP\LateX Documentation\DebugString.png">
+      <PackagePath>MindSetUWP\LateX Documentation\DebugString.png</PackagePath>
+      <Modified>2015-11-02T12:48:55.163</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWA\MindWaveBc\bin\x64\Debug\Core\MindSetUWP\Properties\MindSetUWA.rd.xml">
+      <PackagePath>MindSetUWP\Properties\MindSetUWA.rd.xml</PackagePath>
+      <Modified>2015-10-16T05:53:43.689</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWA\MindWaveBc\bin\x64\Debug\Core\MindWaveBc.exe">
       <PackagePath>MindWaveBc.exe</PackagePath>
-      <Modified>2015-10-21T09:23:09.177</Modified>
+      <Modified>2015-11-02T13:08:46.558</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWA\MindWaveBc\bin\x64\Debug\Core\MindWaveBc.xr.xml">
       <PackagePath>MindWaveBc.xr.xml</PackagePath>
-      <Modified>2015-10-21T09:22:30.554</Modified>
+      <Modified>2015-11-02T12:43:45.067</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWA\MindWaveBc\bin\x64\Debug\Core\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -122,7 +138,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWA\MindWaveBc\bin\x64\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-10-21T09:22:43.881</Modified>
+      <Modified>2015-11-02T12:50:59.198</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWA\MindWaveBc\bin\x64\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>

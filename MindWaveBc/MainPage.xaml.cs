@@ -1,4 +1,4 @@
-﻿// Include the MindSetUWA Library.
+﻿// TEST APLIKACE
 using MindSetUWA;
 using System.Diagnostics;
 using Windows.UI.Xaml;
@@ -22,9 +22,27 @@ namespace MindWaveBc
             MyHeadset.ConnectBluetooth("MindWave Mobile");
         }
 
+        private void EEGToList()
+        {
+            EEGlist.Items.Clear();
+            EEGlist.Items.Add("QUALITY: " + MyHeadset.RealtimeData.Quality);
+            EEGlist.Items.Add("Alpha High: " + MyHeadset.RealtimeData.AlphaHigh);
+            EEGlist.Items.Add("Alpha Low: " + MyHeadset.RealtimeData.AlphaLow);
+            EEGlist.Items.Add("Beta High: " + MyHeadset.RealtimeData.BetaHigh);
+            EEGlist.Items.Add("Beta Low: " + MyHeadset.RealtimeData.BetaLow);
+            EEGlist.Items.Add("Delta: " + MyHeadset.RealtimeData.Delta);
+            EEGlist.Items.Add("Theta: " + MyHeadset.RealtimeData.Theta);
+            EEGlist.Items.Add("Gamma Low: " + MyHeadset.RealtimeData.GammaLow);
+            EEGlist.Items.Add("Gama Mid: " + MyHeadset.RealtimeData.GammaMid);
+            EEGlist.Items.Add("Meditation: " + MyHeadset.RealtimeData.Meditation);
+            EEGlist.Items.Add("Attention: " + MyHeadset.RealtimeData.Attention);
+            EEGlist.Items.Add("Time: " + MyHeadset.RealtimeData.Timestamp);
+        }
+
         private void button1_Click(object sender, RoutedEventArgs e)
         {
-            Debug.Write(MyHeadset.RealtimeData.AllToString());
+         EEGToList();
+
         }
     }
 }

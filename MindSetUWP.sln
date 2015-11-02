@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindSetUWA_DemoApp", "MindWaveBc\MindSetUWA_DemoApp.csproj", "{914AA61C-7323-4287-B8BA-F01AA161D489}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindSetUWP_DemoApp", "MindWaveBc\MindSetUWP_DemoApp.csproj", "{914AA61C-7323-4287-B8BA-F01AA161D489}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindSetUWA", "MindSetUWA\MindSetUWA.csproj", "{156981C0-E892-44F4-9F10-73B8671ADF53}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindSetUWP", "MindSetUWA\MindSetUWP.csproj", "{156981C0-E892-44F4-9F10-73B8671ADF53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

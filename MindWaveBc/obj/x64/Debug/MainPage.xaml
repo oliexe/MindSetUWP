@@ -9,8 +9,10 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="100" Margin="-203,-2197,0,0" VerticalAlignment="Top" Width="100"/>
-        <Button x:ConnectionId='1' x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="10,139,0,0" VerticalAlignment="Top" Height="96" Width="340"                     />
-        <Button x:ConnectionId='2' x:Name="button1" Content="Button" HorizontalAlignment="Left" Margin="10,448,0,0" VerticalAlignment="Top" Height="53" Width="340"                      />
+        <Button x:ConnectionId='1' x:Name="ConnectBtn" Content="STEP1: Connect to headset " HorizontalAlignment="Left" Margin="38,10,0,0" VerticalAlignment="Top" Height="122" Width="290"                     />
+        <Button x:ConnectionId='2' x:Name="DataBtn" Content="STEP2: Read EEG Data" HorizontalAlignment="Left" Margin="38,192,0,0" VerticalAlignment="Top" Height="69" Width="290"                      />
+        <ListView x:ConnectionId='3' x:Name="EEGlist" HorizontalAlignment="Left" Height="350" Margin="38,266,0,0" VerticalAlignment="Top" Width="290"/>
+        <TextBlock x:ConnectionId='4' x:Name="textBlock" HorizontalAlignment="Left" Margin="46,137,0,0" TextWrapping="Wrap" Text="(HEADSET MUST BE PAIRED IN SYSTEM BLUETOOTH MENU !!)" VerticalAlignment="Top" Height="50" Width="282"/>
     </Grid>
 </Page>
 

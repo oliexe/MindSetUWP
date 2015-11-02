@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("MindSetUWA")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("MindWave EEG Headset library for Windows 10 universal applications.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Ondřej Řeháček (REH0063)")]
 [assembly: AssemblyProduct("MindSetUWA")]
-[assembly: AssemblyCopyright("Copyright ©  2015")]
+[assembly: AssemblyCopyright("Copyright © Ondřej Řeháček (REH0063) 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

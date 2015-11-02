@@ -13,7 +13,7 @@ namespace MindWaveBc
 {
     public partial class App : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
-    private global::MindWaveBc.MindSetUWA_DemoApp_XamlTypeInfo.XamlTypeInfoProvider _provider;
+    private global::MindWaveBc.MindSetUWP_DemoApp_XamlTypeInfo.XamlTypeInfoProvider _provider;
 
         /// <summary>
         /// GetXamlType(Type)
@@ -22,7 +22,7 @@ namespace MindWaveBc
         {
             if(_provider == null)
             {
-                _provider = new global::MindWaveBc.MindSetUWA_DemoApp_XamlTypeInfo.XamlTypeInfoProvider();
+                _provider = new global::MindWaveBc.MindSetUWP_DemoApp_XamlTypeInfo.XamlTypeInfoProvider();
             }
             return _provider.GetXamlTypeByType(type);
         }
@@ -34,7 +34,7 @@ namespace MindWaveBc
         {
             if(_provider == null)
             {
-                _provider = new global::MindWaveBc.MindSetUWA_DemoApp_XamlTypeInfo.XamlTypeInfoProvider();
+                _provider = new global::MindWaveBc.MindSetUWP_DemoApp_XamlTypeInfo.XamlTypeInfoProvider();
             }
             return _provider.GetXamlTypeByName(fullName);
         }
@@ -49,7 +49,7 @@ namespace MindWaveBc
     }
 }
 
-namespace MindWaveBc.MindSetUWA_DemoApp_XamlTypeInfo
+namespace MindWaveBc.MindSetUWP_DemoApp_XamlTypeInfo
 {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 14.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -179,8 +179,8 @@ namespace MindWaveBc.MindSetUWA_DemoApp_XamlTypeInfo
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
-            global::MindWaveBc.MindSetUWA_DemoApp_XamlTypeInfo.XamlSystemBaseType xamlType = null;
-            global::MindWaveBc.MindSetUWA_DemoApp_XamlTypeInfo.XamlUserType userType;
+            global::MindWaveBc.MindSetUWP_DemoApp_XamlTypeInfo.XamlSystemBaseType xamlType = null;
+            global::MindWaveBc.MindSetUWP_DemoApp_XamlTypeInfo.XamlUserType userType;
             string typeName = _typeNameTable[typeIndex];
             global::System.Type type = _typeTable[typeIndex];
 
@@ -188,18 +188,18 @@ namespace MindWaveBc.MindSetUWA_DemoApp_XamlTypeInfo
             {
 
             case 0:   //  MindWaveBc.MainPage
-                userType = new global::MindWaveBc.MindSetUWA_DemoApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType = new global::MindWaveBc.MindSetUWP_DemoApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_0_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
             case 1:   //  Windows.UI.Xaml.Controls.Page
-                xamlType = new global::MindWaveBc.MindSetUWA_DemoApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::MindWaveBc.MindSetUWP_DemoApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 2:   //  Windows.UI.Xaml.Controls.UserControl
-                xamlType = new global::MindWaveBc.MindSetUWA_DemoApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::MindWaveBc.MindSetUWP_DemoApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
             return xamlType;
@@ -209,7 +209,7 @@ namespace MindWaveBc.MindSetUWA_DemoApp_XamlTypeInfo
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
-            global::MindWaveBc.MindSetUWA_DemoApp_XamlTypeInfo.XamlMember xamlMember = null;
+            global::MindWaveBc.MindSetUWP_DemoApp_XamlTypeInfo.XamlMember xamlMember = null;
             // No Local Properties
             return xamlMember;
         }
@@ -264,9 +264,9 @@ namespace MindWaveBc.MindSetUWA_DemoApp_XamlTypeInfo
 
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 14.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-    internal class XamlUserType : global::MindWaveBc.MindSetUWA_DemoApp_XamlTypeInfo.XamlSystemBaseType
+    internal class XamlUserType : global::MindWaveBc.MindSetUWP_DemoApp_XamlTypeInfo.XamlSystemBaseType
     {
-        global::MindWaveBc.MindSetUWA_DemoApp_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::MindWaveBc.MindSetUWP_DemoApp_XamlTypeInfo.XamlTypeInfoProvider _provider;
         global::Windows.UI.Xaml.Markup.IXamlType _baseType;
         bool _isArray;
         bool _isMarkupExtension;
@@ -280,7 +280,7 @@ namespace MindWaveBc.MindSetUWA_DemoApp_XamlTypeInfo
         global::System.Collections.Generic.Dictionary<string, string> _memberNames;
         global::System.Collections.Generic.Dictionary<string, object> _enumValues;
 
-        public XamlUserType(global::MindWaveBc.MindSetUWA_DemoApp_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, global::System.Type fullType, global::Windows.UI.Xaml.Markup.IXamlType baseType)
+        public XamlUserType(global::MindWaveBc.MindSetUWP_DemoApp_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, global::System.Type fullType, global::Windows.UI.Xaml.Markup.IXamlType baseType)
             :base(fullName, fullType)
         {
             _provider = provider;
@@ -472,7 +472,7 @@ namespace MindWaveBc.MindSetUWA_DemoApp_XamlTypeInfo
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal class XamlMember : global::Windows.UI.Xaml.Markup.IXamlMember
     {
-        global::MindWaveBc.MindSetUWA_DemoApp_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::MindWaveBc.MindSetUWP_DemoApp_XamlTypeInfo.XamlTypeInfoProvider _provider;
         string _name;
         bool _isAttachable;
         bool _isDependencyProperty;
@@ -481,7 +481,7 @@ namespace MindWaveBc.MindSetUWA_DemoApp_XamlTypeInfo
         string _typeName;
         string _targetTypeName;
 
-        public XamlMember(global::MindWaveBc.MindSetUWA_DemoApp_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
+        public XamlMember(global::MindWaveBc.MindSetUWP_DemoApp_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
         {
             _name = name;
             _typeName = typeName;

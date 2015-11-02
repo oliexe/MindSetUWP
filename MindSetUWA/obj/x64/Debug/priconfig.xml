@@ -28,8 +28,8 @@
       <qualifier name="AlternateForm" value="" />
       <qualifier name="Platform" value="UAP" />
     </default>
-    <indexer-config type="RESW" convertDotsToSlashes="true" initialPath="MindSetUWA" />
-    <indexer-config type="RESJSON" initialPath="MindSetUWA" />
+    <indexer-config type="RESW" convertDotsToSlashes="true" initialPath="MindSetUWP" />
+    <indexer-config type="RESJSON" initialPath="MindSetUWP" />
     <indexer-config type="RESFILES" qualifierDelimiter="." />
   </index>
   <index root="\" startIndexAt="obj\x64\Debug\pri.resfiles">

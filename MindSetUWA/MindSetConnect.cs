@@ -17,8 +17,10 @@ namespace MindSetUWA
         public MindsetDataStruct RealtimeData = new MindsetDataStruct();
         private EMindSetStatus Status = new EMindSetStatus();
 
-        private const int PacketLenght = 36; //MindSet packet is 36 bytes long.
+        private const int PacketLenght = 36; //MindSet packet is 36 bytes long. Check Documentation.
 
+
+        //returns status (TODO)
         public EMindSetStatus ConnectionStatus()
         {
             return Status;
@@ -83,18 +85,20 @@ namespace MindSetUWA
                     }
                     else
                     {
-                        // Check if enough data exists to finalize this useful data packet, if not, get another
+                        // Packet Check
                         if (indexOfUsefulDataHeader.Value + PacketLenght > resultArray.Length)
                         {
                             var nextResultsArray = await NextBuffer();
                             resultArray = resultArray.Concat(nextResultsArray).ToArray();
                         }
 
-                        // Packet is all right
+                        // Packet OK
                         var PctData = resultArray.Skip(indexOfUsefulDataHeader.Value).Take(PacketLenght + 4).ToArray();
                         Status = EMindSetStatus.ConnectedBT;
 
+                        // viz:
                         // http://wearcam.org/ece516/mindset_communications_protocol.pdf
+                        //
                         RealtimeData = new MindsetDataStruct(PctData[4], //Signal Quality
                             PacketValue.Get(PctData, 7, 9), //Delta
                             PacketValue.Get(PctData, 10, 12), //Theta

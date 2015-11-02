@@ -4,21 +4,7 @@ namespace MindSetUWA
 {
     public class MindsetDataStruct
     {
-        private DateTime now;
-        private object p1;
-        private object p10;
-        private object p2;
-        private object p3;
-        private object p4;
-        private object p5;
-        private object p6;
-        private object p7;
-        private object p8;
-        private object p9;
-        private int v;
-        public MindsetDataStruct()
-        {
-        }
+        public MindsetDataStruct(){}
 
         public MindsetDataStruct(int quality, int delta, int theta, int alphaLow, int alphaHigh, int betaLow, int betaHigh, int gammaLow, int gammaMid, int eSenseAttention, int eSenseMeditation, DateTime timestamp)
         {
@@ -34,22 +20,6 @@ namespace MindSetUWA
             this.Attention = eSenseAttention;
             this.Meditation = eSenseMeditation;
             Timestamp = timestamp;
-        }
-
-        public MindsetDataStruct(object p1, int v, object p2, object p3, object p4, object p5, object p6, object p7, object p8, object p9, object p10, DateTime now)
-        {
-            this.p1 = p1;
-            this.v = v;
-            this.p2 = p2;
-            this.p3 = p3;
-            this.p4 = p4;
-            this.p5 = p5;
-            this.p6 = p6;
-            this.p7 = p7;
-            this.p8 = p8;
-            this.p9 = p9;
-            this.p10 = p10;
-            this.now = now;
         }
 
         public int AlphaHigh { get; private set; }

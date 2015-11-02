@@ -17,6 +17,7 @@ namespace MindSetUWA.Common
 
     public static class HeaderIndex
     {
+        // viz MindWave packet dokumentace
         private const int PARSER_SYNC = 0xAA;
         private const int UsefulDataPacketLength = 32;
 
@@ -39,7 +40,7 @@ namespace MindSetUWA.Common
     {
         public static int Get(byte[] usefulDataPacket, int beginInclusive, int endInclusive)
         {
-            // From: http://www.java2s.com/Code/CSharp/Data-Types/ReadInt24frombytearray.htm
+            // viz: http://www.java2s.com/Code/CSharp/Data-Types/ReadInt24frombytearray.htm
 
             return (usefulDataPacket[beginInclusive] << 16)
                 + (usefulDataPacket[beginInclusive + 1] << 8)

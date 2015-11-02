@@ -1,5 +1,6 @@
 ﻿namespace MindSetUWA
 {
+    //DODĚLAT
     public enum EMindSetStatus
     {
         Connecting, //Connection in progress
