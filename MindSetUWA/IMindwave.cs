@@ -28,9 +28,5 @@ namespace MindSetUWA
         /// </summary>
         EMindSetStatus ConnectionStatus();
 
-        /// <summary>
-        /// Return a realtime status of the connection to a headset in string format.
-        /// </summary>
-        string ConnectionStatusString();
     }
 }

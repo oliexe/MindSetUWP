@@ -1,8 +1,11 @@
 ﻿using System;
+using System.Xml.Serialization;
+using System.IO;
+using System.Runtime.Serialization;
 
 namespace MindSetUWA
 {
-    public class MindsetDataStruct
+    public class MindsetDataStruct 
     {
         public MindsetDataStruct(){}
 

@@ -111,8 +111,10 @@
     <Compile Include="EMindSetStatus.cs" />
     <Compile Include="IMindwave.cs" />
     <Compile Include="MindSetConnect.cs" />
-    <Compile Include="MindsetDataStruct.cs" />
+    <Compile Include="MindSetDataStruct.cs" />
     <Compile Include="Common\MindSetExtensions.cs" />
+    <Compile Include="MindSetEvents.cs" />
+    <Compile Include="MindSetExceptions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="LegacyConnect.cs" />
     <Content Include="LateX Documentation\BTpair.png" />
