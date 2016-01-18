@@ -1,5 +1,5 @@
-![alt tag](http://s10.postimg.org/fnqxqgx6h/win10_logo.jpg)
-![alt tag](http://www.fei.vsb.cz/export/sites/fei/.content/galerie-obrazku/images/fei-new.jpg_216252460.jpg)
+![alt tag](http://s17.postimg.org/ifajdi6y7/687474703a2f2f7331302e706f7374696d672e6f72672f66.jpg)
+
 A NeuroSky MindWave and MindWave Mobile EEG headset library for Windows 10 universal applications ecosystem. A part of my bachelor thesisat VŠB - Technical University of Ostrava. Study year 2015-2016. Library isdesigned primary for use with MindWave Mobile bluetooth headset paired with Windows 10 device. You can easilly recieve EEG readings to any UWAapplication and use them
 
 ### Basic Usage
