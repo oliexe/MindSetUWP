@@ -27,22 +27,22 @@
 <h3>
 <a id="neurosky-mindwave-mobile-headset" class="anchor" href="#neurosky-mindwave-mobile-headset" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>NeuroSky MindWave Mobile headset.</h3>
 
-<p>Library is designet for use with Bluetooth equipped MindWave Mobile EEG headsets, that are the culmination of decades of EEG biosensor technology research—all in one easy-to-control, wearable package. As the most affordable brainwave-reading EEG headset available, the MindWave and MindWave Mobile transform science fiction into reality from the comfort of your living room.</p>
+<p>Library is designed for use with Bluetooth equipped MindWave Mobile EEG headset. This device is the culmination of decades of EEG biosensor technology research—all in one easy-to-control, wearable package. As the most affordable brainwave-reading EEG headset available, the MindWave and MindWave Mobile transform science fiction into reality from the comfort of your living room.</p>
 
 <h3>
-<a id="getting-started" class="anchor" href="#getting-started" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Getting started.</h3>
+<a id="get---set---go" class="anchor" href="#get---set---go" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Get - set - go</h3>
 
-<p>First, create a instance of MindSetConnection.</p>
+<p>First, we create a instance of MindSetConnection.</p>
 
 <pre><code>private MindSetConnection MyHeadset = new MindSetConnection()
 </code></pre>
 
-<p>After the MindSetConnection is created, we can directly proceed to connecting to  bluetooth EEG headset.</p>
+<p>After the MindSetConnection is created, we can directly proceed to connecting to EEG headset using the "ConnectBluetooth" method. We supplly this method with the name of the bluetooth headset. Please note, that this headset must be already paired with your device.</p>
 
 <pre><code>MyHeadset.ConnectBluetooth("MindWave Mobile");
 </code></pre>
 
-<p>Thats it ! We are all set and recieveing data from the headset. From now on , we can access all of the realtime reading directly from our instance od MindSetConnection, just like this :</p>
+<p>That's it, Sparky! We are all set and receiving data from the headset. From now on, we can access all of the realtime reading directly from our instance of MindSetConnection just like any other integer variable:</p>
 
 <pre><code>Debug.Write(MyHeadset.RealtimeData.AlphaHigh); 
 Debug.Write(MyHeadset.RealtimeData.Beta); 
@@ -51,7 +51,7 @@ Debug.Write(MyHeadset.RealtimeData.Beta);
 <h3>
 <a id="going-deeper" class="anchor" href="#going-deeper" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Going deeper</h3>
 
-<p>It does not stop there because MindSetUWP library features much more. To learn all of the possibilities of the library from basic connecting, understanding EEG data to recording, events, emulation and exceptions. You can download the full documentation Here. Or check the included documentation files in GitHub repository.</p>
+<p>It does not stop there because MindSetUWP library features much more. To learn all of the possibilities of the library from basic connecting, understanding EEG data to recording, events, emulation and exception manipulation. You can download the full documentation Here. Or check the included files in GitHub repository.</p>
 
 <h3>
 <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
