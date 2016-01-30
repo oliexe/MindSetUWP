@@ -31,12 +31,12 @@
 <h3>
 <a id="brainwave-activity-in-your-apps" class="anchor" href="#brainwave-activity-in-your-apps" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Brainwave activity in your apps</h3>
 
-<p>MindWaveUWP makes your universal Windows apps smarter and helps them to read user brainwave data using Bluetooth EEG sensors. The library is specifically designed to be very easy, fast and deployable with minimal changes and alterations of your already working code. With only 2 extra lines of code, your application can be ready to recieve and process users brainwave data. The library can not only work with real-time EEG readings, but also provides built-in data recording for long-term data analysis.</p>
+<p>MindWaveUWP makes your universal Windows apps smarter and helps them to read user brainwave data using Bluetooth EEG sensors. The library is specifically designed to be very easy, fast and deployable with minimal alterations of your already working code. With only 2 extra lines of code, your application can be ready to recieve and process users brainwave data. The library can not only work with real-time EEG readings, but also provides built-in data recording for long-term data analysis.</p>
 
 <h3>
 <a id="hardware" class="anchor" href="#hardware" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Hardware</h3>
 
-<p>Library is designed for use with Bluetooth equipped MindWave Mobile EEG headset. This device is the culmination of decades of EEG biosensor technology research—all in one easy-to-control, wearable package. As the most affordable brainwave-reading EEG headset available, the MindWave and MindWave Mobile transform science fiction into reality from the comfort of your living room.</p>
+<p>Library is designed for use with Bluetooth equipped MindWave Mobile EEG headset. This device is the culmination of decades of EEG biosensor technology research—all in one easy-to-control, wearable package. As the most affordable brainwave-reading EEG headset.</p>
 
 <h3>
 <a id="get---set---go" class="anchor" href="#get---set---go" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Get - set - go</h3>
@@ -46,26 +46,23 @@
 <pre><code>private MindSetConnection MyHeadset = new MindSetConnection()
 </code></pre>
 
-<p>After the MindSetConnection is created, we can directly proceed to connecting to EEG headset using the "ConnectBluetooth" method. We supply this method with the name of the bluetooth headset in string format. Please note, that this headset must be already paired with your device.</p>
+<p>After the MindSetConnection is created, we can directly proceed to connecting to EEG headset. We supply "ConnectBluetooth" method with the name of the bluetooth headset in string format. Please note, that this headset must be already paired with your device.</p>
 
 <pre><code>MyHeadset.ConnectBluetooth("MindWave Mobile");
 </code></pre>
 
-<p>That's it, Sparky! We are all set and receiving data from the headset. From now on, we can access all of the realtime reading directly from our instance of MindSetConnection just like any other integer variable:</p>
+<p>That's all, Sparky! We are all set and receiving data from the headset. From now on, we can access all of the realtime reading directly from our instance of MindSetConnection just like any other integer variable:</p>
 
 <pre><code>Debug.Write(MyHeadset.RealtimeData.AlphaHigh); 
 Debug.Write(MyHeadset.RealtimeData.Beta); 
 </code></pre>
 
-<h3>
-<a id="getting-advanced" class="anchor" href="#getting-advanced" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Getting advanced</h3>
-
-<p>It does not stop there because MindSetUWP library features much more. To learn all of the possibilities of the library from basic connecting, understanding EEG data to recording, events, emulation and exception manipulation. You can download the full LaTeX documentation Here. Or check the included files in GitHub repository.</p>
+<p>It does not stop there, because MindSetUWP library features much more. To learn all of the possibilities of the library from basic connecting, understanding EEG data to recording, events, emulation and exception manipulation. You can download the full LaTeX documentation Here. </p>
 
 <h3>
 <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
-<p>The library is developed and maintained by Ondřej Řeháček (<a href="https://github.com/olirehacek" class="user-mention">@olirehacek</a>) as part of bachelor thesis at VŠB - Technical University of Ostrava. I would like to thank Justin Angel (<a href="https://github.com/JustinAngel" class="user-mention">@JustinAngel</a>) for wonderful method of parsing packets from the EEG headset included in his MetroEEG project. Thanks also goes to my thesis supervisor Ing. Michal Radecký, Ph.D. for good leadership, his time and help during the development.</p>
+<p>The library is developed and maintained by Ondřej Řeháček (<a href="https://github.com/olirehacek" class="user-mention">@olirehacek</a>) as part of bachelor thesis at VŠB - Technical University of Ostrava. I would like to thank Justin Angel (<a href="https://github.com/JustinAngel" class="user-mention">@JustinAngel</a>) for wonderful method of parsing packets included in his MetroEEG project. Thanks also goes to my thesis supervisor Ing. Michal Radecký, Ph.D.</p>
 
 <h3>
 <a id="application-examples" class="anchor" href="#application-examples" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Application Examples</h3>
@@ -73,7 +70,7 @@ Debug.Write(MyHeadset.RealtimeData.Beta);
 <h4>
 <a id="mind-bird" class="anchor" href="#mind-bird" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Mind Bird</h4>
 
-<p>We used the "Flappy Bird" clone developed by Calvin Lichty (<a href="https://github.com/Sranshaft" class="user-mention">@Sranshaft</a>) and equipped the game with MindSetUWP library. The result is the game controled using level of brain activity and attention of the player. This example was presented on open days of VŠB-TUO: Technical University of Ostrava. Source code of this example is included in "Examples" directory of the library.</p>
+<p>We used the "Flappy Bird" clone developed by Calvin Lichty (<a href="https://github.com/Sranshaft" class="user-mention">@Sranshaft</a>) and equipped the game with MindSetUWP library. The result is the game controled using level of brain activity and attention of the player. This example was presented on open days of VŠB-TUO: Technical University of Ostrava.</p>
 
 <h3>
 <a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h3>
