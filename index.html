@@ -34,7 +34,7 @@
 <h3>
 <a id="brainwave-activity-in-your-apps" class="anchor" href="#brainwave-activity-in-your-apps" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Brainwave activity in your apps</h3>
 
-<p><strong>MindWaveUWP</strong> makes your universal Windows apps smarter and helps them to read user brainwave data using Bluetooth EEG sensors. The library is specifically designed to be very easy, fast and deployable with minimal alterations of your already working code. With only 2 extra lines of code your application can be ready to recieve and process users brainwave data. The library does not  work only with real-time EEG readings, but also provides built-in data recording for long-term data analysis.</p>
+<p><strong>MindWaveUWP</strong> makes your universal Windows apps smarter and helps them to read user brainwave data using Bluetooth EEG sensors. The library is specifically designed to be very easy, fast and deployable with minimal alterations of your already working code. With only 2 extra lines of code your application can be ready to recieve and process user brainwave data. The library does not  work only with real-time EEG readings, but also provides built-in data recording for long-term data analysis.</p>
 
 <h3>
 <a id="hardware" class="anchor" href="#hardware" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Hardware</h3>
@@ -44,28 +44,28 @@
 <h3>
 <a id="get---set---go" class="anchor" href="#get---set---go" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Get - set - go</h3>
 
-<p>First, we create a instance of MindSetConnection.</p>
+<p>First, we create an instance of MindSetConnection.</p>
 
 <pre><code>private MindSetConnection MyHeadset = new MindSetConnection()
 </code></pre>
 
-<p>After the MindSetConnection is created, we can directly proceed to connecting to EEG headset. We supply "ConnectBluetooth" method with the name of the bluetooth headset in string format. Please note, that this headset must be already paired with your device.</p>
+<p>After the MindSetConnection is created, we can directly proceed with connecting to EEG headset. We supply "ConnectBluetooth" method with the name of the bluetooth headset in string format. Please note, that this headset must be already paired with your Windows device.</p>
 
 <pre><code>MyHeadset.ConnectBluetooth("MindWave Mobile");
 </code></pre>
 
-<p>That's all, Sparky! We are all set and receiving data from the headset. From now on, we can access all of the realtime reading directly from our instance of MindSetConnection just like any other integer variable:</p>
+<p>That's all, Sparky! We are all set and already receiving data from the headset. From now on, we can access all of the realtime reading directly from our instance of MindSetConnection just like any other integer variable:</p>
 
 <pre><code>Debug.Write(MyHeadset.RealtimeData.AlphaHigh); 
 Debug.Write(MyHeadset.RealtimeData.Beta); 
 </code></pre>
 
-<p>It does not stop there, because MindSetUWP library features much more. To learn all of the possibilities of the library from basic connecting, understanding EEG data to recording, events, emulation and exception manipulation. You can download the full LaTeX documentation Here. </p>
+<p>It does not stop there, because MindSetUWP library features much more. To learn all of the possibilities of the library from basic connecting, understanding EEG data to recording, events and exception manipulation. You can download the full LaTeX documentation Here. </p>
 
 <h3>
 <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
-<p>The library is developed and maintained by Ondřej Řeháček (<a href="https://github.com/olirehacek" class="user-mention">@olirehacek</a>) as part of bachelor thesis at VŠB - Technical University of Ostrava. I would like to thank Justin Angel (<a href="https://github.com/JustinAngel" class="user-mention">@JustinAngel</a>) for wonderful method of parsing packets included in his <a href="http://metroeeg.codeplex.com/">MetroEEG</a> project. Thanks also goes to my thesis supervisor Ing. Michal Radecký, Ph.D.</p>
+<p>The library is developed and maintained by Ondřej Řeháček (<a href="https://github.com/olirehacek" class="user-mention">@olirehacek</a>) as part of my bachelor thesis at VŠB - Technical University of Ostrava. I would like to thank Justin Angel (<a href="https://github.com/JustinAngel" class="user-mention">@JustinAngel</a>) for wonderful method of parsing packets included in his <a href="http://metroeeg.codeplex.com/">MetroEEG</a> project. Thanks also goes to my thesis supervisor Ing. Michal Radecký, Ph.D.</p>
 
 <h3>
 <a id="application-example" class="anchor" href="#application-example" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Application Example</h3>
