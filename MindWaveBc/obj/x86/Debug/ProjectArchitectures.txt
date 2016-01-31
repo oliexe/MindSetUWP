@@ -1,2 +1,0 @@
-c:\users\olire\documents\visual studio 2015\Projects\MindWaveBc\MindSetUWA\MindSetUWA.csproj;x86
-c:\users\olire\documents\visual studio 2015\Projects\MindWaveBc\MindWaveBc\MindWaveBc.csproj;x86
