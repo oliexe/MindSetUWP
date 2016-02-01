@@ -1,3 +1,7 @@
+[1-30-2016] Updated to Windows 10 SDK version 10.0.10586 (Latest)
+[1-12-2016] The library now includes recording of the EEG data.
+[18-20-2015] Updated to Windows 10 SDK version 10.0.10240
+
 MindWaveUWP makes your universal Windows apps smarter and helps them to read user brainwave data using Bluetooth EEG sensors. The library is specifically designed to be very easy, fast and deployable with minimal alterations of your already working code. With only 2 extra lines of code your application can be ready to recieve and process users brainwave data. The library does not work only with real-time EEG readings, but also provides built-in data recording for long-term data analysis.
 
 Library is designed for use with Bluetooth equipped MindWave Mobile EEG headset. This device is the culmination of decades of EEG biosensor technology research—all in one easy-to-control, wearable package. As the most affordable brainwave-reading EEG headset.
