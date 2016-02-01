@@ -1,0 +1,17 @@
+c:\users\olire\documents\visual studio 2015\Projects\MindWaveBc\MindSetUWA\obj\x86\Debug\MindSetUWA.csprojResolveAssemblyReference.cache
+c:\users\olire\documents\visual studio 2015\Projects\MindWaveBc\MindSetUWA\bin\x86\Debug\MindSetUWA.dll
+c:\users\olire\documents\visual studio 2015\Projects\MindWaveBc\MindSetUWA\bin\x86\Debug\MindSetUWA.pdb
+c:\users\olire\documents\visual studio 2015\Projects\MindWaveBc\MindSetUWA\bin\x86\Debug\MindSetUWA.pri
+c:\users\olire\documents\visual studio 2015\Projects\MindWaveBc\MindSetUWA\obj\x86\Debug\MindSetUWA.dll
+c:\users\olire\documents\visual studio 2015\Projects\MindWaveBc\MindSetUWA\obj\x86\Debug\MindSetUWA.pdb
+c:\users\olire\documents\visual studio 2015\Projects\MindWaveBc\MindSetUWA\obj\x86\Debug\priconfig.xml
+c:\users\olire\documents\visual studio 2015\Projects\MindWaveBc\MindSetUWA\obj\x86\Debug\priconfig.xml.intermediate
+c:\users\olire\documents\visual studio 2015\Projects\MindWaveBc\MindSetUWA\obj\x86\Debug\layout.resfiles
+c:\users\olire\documents\visual studio 2015\Projects\MindWaveBc\MindSetUWA\obj\x86\Debug\layout.resfiles.intermediate
+c:\users\olire\documents\visual studio 2015\Projects\MindWaveBc\MindSetUWA\obj\x86\Debug\resources.resfiles
+c:\users\olire\documents\visual studio 2015\Projects\MindWaveBc\MindSetUWA\obj\x86\Debug\resources.resfiles.intermediate
+c:\users\olire\documents\visual studio 2015\Projects\MindWaveBc\MindSetUWA\obj\x86\Debug\pri.resfiles
+c:\users\olire\documents\visual studio 2015\Projects\MindWaveBc\MindSetUWA\obj\x86\Debug\pri.resfiles.intermediate
+c:\users\olire\documents\visual studio 2015\Projects\MindWaveBc\MindSetUWA\obj\x86\Debug\qualifiers.txt
+c:\users\olire\documents\visual studio 2015\Projects\MindWaveBc\MindSetUWA\obj\x86\Debug\qualifiers.txt.intermediate
+c:\users\olire\documents\visual studio 2015\Projects\MindWaveBc\MindSetUWA\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt

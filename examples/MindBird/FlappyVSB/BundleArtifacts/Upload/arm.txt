@@ -1,0 +1,2 @@
+MainPackage=C:\Users\olire\documents\visual studio 2015\Projects\FlappyVSB\FlappyVSB\bin\ARM\Release\Upload\FlappyVSB_1.1.0.0_ARM.appx
+SymbolPackage=C:\Users\olire\documents\visual studio 2015\Projects\FlappyVSB\FlappyVSB\AppPackages\FlappyVSB_1.1.0.0\FlappyVSB_1.1.0.0_ARM.appxsym

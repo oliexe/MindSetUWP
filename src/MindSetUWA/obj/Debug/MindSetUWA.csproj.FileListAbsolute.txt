@@ -1,0 +1,17 @@
+C:\Users\olire\Documents\GitHub\MindSetUWA\MindSetUWA\bin\Debug\MindSetUWA.dll
+C:\Users\olire\Documents\GitHub\MindSetUWA\MindSetUWA\bin\Debug\MindSetUWA.pdb
+C:\Users\olire\Documents\GitHub\MindSetUWA\MindSetUWA\bin\Debug\MindSetUWA.pri
+C:\Users\olire\Documents\GitHub\MindSetUWA\MindSetUWA\obj\Debug\MindSetUWA.csprojResolveAssemblyReference.cache
+C:\Users\olire\Documents\GitHub\MindSetUWA\MindSetUWA\obj\Debug\MindSetUWA.dll
+C:\Users\olire\Documents\GitHub\MindSetUWA\MindSetUWA\obj\Debug\MindSetUWA.pdb
+C:\Users\olire\Documents\GitHub\MindSetUWA\MindSetUWA\obj\Debug\priconfig.xml
+C:\Users\olire\Documents\GitHub\MindSetUWA\MindSetUWA\obj\Debug\priconfig.xml.intermediate
+C:\Users\olire\Documents\GitHub\MindSetUWA\MindSetUWA\obj\Debug\layout.resfiles
+C:\Users\olire\Documents\GitHub\MindSetUWA\MindSetUWA\obj\Debug\layout.resfiles.intermediate
+C:\Users\olire\Documents\GitHub\MindSetUWA\MindSetUWA\obj\Debug\resources.resfiles
+C:\Users\olire\Documents\GitHub\MindSetUWA\MindSetUWA\obj\Debug\resources.resfiles.intermediate
+C:\Users\olire\Documents\GitHub\MindSetUWA\MindSetUWA\obj\Debug\pri.resfiles
+C:\Users\olire\Documents\GitHub\MindSetUWA\MindSetUWA\obj\Debug\pri.resfiles.intermediate
+C:\Users\olire\Documents\GitHub\MindSetUWA\MindSetUWA\obj\Debug\qualifiers.txt
+C:\Users\olire\Documents\GitHub\MindSetUWA\MindSetUWA\obj\Debug\qualifiers.txt.intermediate
+C:\Users\olire\Documents\GitHub\MindSetUWA\MindSetUWA\obj\Debug\MultipleQualifiersPerDimensionFound.txt
