@@ -64,7 +64,6 @@
       <RootMethod Name="SetColumn" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
-    <RootType FullName="TestApp.Views.PageNotFound" />
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />
     </RootType>
@@ -81,7 +80,7 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="Series" />
     </RootType>
-    <RootType FullName="WinRTXamlToolkit.Controls.DataVisualization.Charting.AreaSeries">
+    <RootType FullName="WinRTXamlToolkit.Controls.DataVisualization.Charting.LineSeries">
       <RootProperty Name="Title" />
       <RootProperty Name="IndependentValueBinding" />
       <RootProperty Name="DependentValueBinding" />
@@ -93,6 +92,15 @@
       <RootProperty Name="Height" />
       <RootProperty Name="Value" />
       <RootProperty Name="Unit" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Name" />
+    </RootType>
+    <RootType FullName="TestApp.Views.PageNotFound" />
+    <RootType FullName="WinRTXamlToolkit.Controls.DataVisualization.Charting.AreaSeries">
+      <RootProperty Name="Title" />
+      <RootProperty Name="IndependentValueBinding" />
+      <RootProperty Name="DependentValueBinding" />
+      <RootProperty Name="IsSelectionEnabled" />
     </RootType>
     <RootType FullName="TestApp.Views.Start" />
   </Roots.RootTypes>

@@ -13,6 +13,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using TestApp.Models;
+using MindSetUWA;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -23,9 +24,12 @@ namespace TestApp
     /// </summary>
     public sealed partial class MainPage : Page
     {
+       
+
         public MainPage()
         {
             this.InitializeComponent();
+         
         }
 
         private void NavMenu_SelectionChanged(object sender, SelectionChangedEventArgs e)

@@ -9,8 +9,8 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>c3dd2a7b-8f45-4d39-890c-2bf9fcf181ea</PackageIdentityName>
-    <IntermediateOutputPath>c:\users\olire\documents\visual studio 2015\Projects\TestApp\TestApp\obj\x86\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>BF189921016FFD4DF67213024CA77ACC98A313EAC764A3C5FFEB9C6E447D35DC</RegisteredManifestChecksum>
+    <IntermediateOutputPath>C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\obj\x86\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>7AB3A778A8948097B9E718FC64D2452C51ECBA03BA863DF0BBDB132C78BD0FE8</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>c3dd2a7b-8f45-4d39-890c-2bf9fcf181ea_1.0.0.0_x86__6mav8j605xvkc</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>c3dd2a7b-8f45-4d39-890c-2bf9fcf181ea_6mav8j605xvkc!App</RegisteredUserModeAppID>
     <RegisteredPackageID>c3dd2a7b-8f45-4d39-890c-2bf9fcf181ea</RegisteredPackageID>
@@ -19,16 +19,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="c:\users\olire\documents\visual studio 2015\Projects\TestApp\TestApp\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-03-29T00:21:46.601</Modified>
+      <Modified>2016-03-30T00:13:13.342</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="c:\users\olire\documents\visual studio 2015\Projects\TestApp\TestApp\bin\x86\Debug\TestApp.exe">
+    <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\bin\x86\Debug\TestApp.exe">
       <PackagePath>entrypoint\TestApp.exe</PackagePath>
-      <Modified>2016-03-29T00:21:43.367</Modified>
+      <Modified>2016-03-30T00:13:10.997</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\olire\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -466,47 +466,55 @@
       <PackagePath>WinRTXamlToolkit.dll</PackagePath>
       <Modified>2016-03-28T12:37:23.347</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\olire\documents\visual studio 2015\Projects\TestApp\TestApp\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\bin\x86\Debug\MindSetUWP.dll">
+      <PackagePath>MindSetUWP.dll</PackagePath>
+      <Modified>2016-03-29T22:50:01.870</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2016-03-28T22:10:46.482</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\olire\documents\visual studio 2015\Projects\TestApp\TestApp\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\Properties\MindSetUWA.rd.xml">
+      <PackagePath>MindSetUWP\Properties\MindSetUWA.rd.xml</PackagePath>
+      <Modified>2016-02-18T12:13:02.819</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2016-03-28T22:10:45.161</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\olire\documents\visual studio 2015\Projects\TestApp\TestApp\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-03-28T22:10:45.165</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\olire\documents\visual studio 2015\Projects\TestApp\TestApp\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-03-28T22:10:45.167</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\olire\documents\visual studio 2015\Projects\TestApp\TestApp\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-03-28T22:10:45.168</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\olire\documents\visual studio 2015\Projects\TestApp\TestApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-03-28T22:10:45.170</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\olire\documents\visual studio 2015\Projects\TestApp\TestApp\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-03-28T22:10:45.172</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\olire\documents\visual studio 2015\Projects\TestApp\TestApp\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-03-28T22:10:45.174</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\olire\documents\visual studio 2015\Projects\TestApp\TestApp\bin\x86\Debug\TestApp.xr.xml">
+    <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\bin\x86\Debug\TestApp.xr.xml">
       <PackagePath>TestApp.xr.xml</PackagePath>
-      <Modified>2016-03-28T23:36:29.948</Modified>
+      <Modified>2016-03-30T00:08:35.401</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -536,13 +544,13 @@
       <PackagePath>WinRTXamlToolkit\Properties\WinRTXamlToolkit.UWP.rd.xml</PackagePath>
       <Modified>2016-03-28T12:37:24.529</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\olire\documents\visual studio 2015\Projects\TestApp\TestApp\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-03-29T00:04:29.575</Modified>
+      <Modified>2016-03-30T00:11:14.029</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\olire\documents\visual studio 2015\Projects\TestApp\TestApp\bin\x86\Debug\Core\TestApp.exe">
+    <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\bin\x86\Debug\Core\TestApp.exe">
       <PackagePath>TestApp.exe</PackagePath>
-      <Modified>2016-03-29T00:21:46.590</Modified>
+      <Modified>2016-03-30T00:13:13.338</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

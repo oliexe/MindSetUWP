@@ -290,7 +290,7 @@ namespace MindSetUWA
         /// </summary>
         public void Dispose()
         {
-            throw new NotImplementedException();
+           
         }
     }
 }

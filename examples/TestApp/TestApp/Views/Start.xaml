@@ -46,6 +46,7 @@
                 Background="White"
                 Margin="0">
                     <controls:Gauge
+                        Name="AttenGauge"
                     Minimum="0"
                     Maximum="100"
                     Height="{Binding Size}"
@@ -57,6 +58,7 @@
                 Background="White"
                 Margin="0">
                     <controls:Gauge
+                        Name="MeditGauge"
                     Minimum="0"
                     Maximum="100"
                     Height="{Binding Size}"
@@ -68,8 +70,9 @@
                 Background="White"
                 Margin="0">
                     <controls:Gauge
+                        Name="SignalQual"
                     Minimum="0"
-                    Maximum="100"
+                    Maximum="255"
                     Height="{Binding Size}"
                     Value="{Binding Value}"
                     Unit="Signal Quality" />
@@ -92,7 +95,7 @@
                 Title="Raw brain values"
                 Margin="70,0">
                         <charting:AreaSeries
-                    Title="Brainwaves"
+                    Title=""
                     IndependentValueBinding="{Binding Name}"
                     DependentValueBinding="{Binding Value}"
                     IsSelectionEnabled="True" />

@@ -3,6 +3,7 @@
   "version": 1,
   "targets": {
     "UAP,Version=v10.0": {
+      "MindSetUWP/1.0.0": {},
       "Microsoft.ApplicationInsights/1.0.0": {
         "compile": {
           "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
@@ -1596,6 +1597,7 @@
       }
     },
     "UAP,Version=v10.0/win10-arm": {
+      "MindSetUWP/1.0.0": {},
       "Microsoft.ApplicationInsights/1.0.0": {
         "compile": {
           "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
@@ -3279,6 +3281,7 @@
       }
     },
     "UAP,Version=v10.0/win10-arm-aot": {
+      "MindSetUWP/1.0.0": {},
       "Microsoft.ApplicationInsights/1.0.0": {
         "compile": {
           "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
@@ -4934,6 +4937,7 @@
       }
     },
     "UAP,Version=v10.0/win10-x64": {
+      "MindSetUWP/1.0.0": {},
       "Microsoft.ApplicationInsights/1.0.0": {
         "compile": {
           "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
@@ -6622,6 +6626,7 @@
       }
     },
     "UAP,Version=v10.0/win10-x64-aot": {
+      "MindSetUWP/1.0.0": {},
       "Microsoft.ApplicationInsights/1.0.0": {
         "compile": {
           "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
@@ -8277,6 +8282,7 @@
       }
     },
     "UAP,Version=v10.0/win10-x86": {
+      "MindSetUWP/1.0.0": {},
       "Microsoft.ApplicationInsights/1.0.0": {
         "compile": {
           "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
@@ -9965,6 +9971,7 @@
       }
     },
     "UAP,Version=v10.0/win10-x86-aot": {
+      "MindSetUWP/1.0.0": {},
       "Microsoft.ApplicationInsights/1.0.0": {
         "compile": {
           "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
@@ -11621,6 +11628,142 @@
     }
   },
   "libraries": {
+    "MindSetUWP/1.0.0": {
+      "sha512": "ZWC0rn2bce1qtkgtMyCehNWRQvsLmcmioVHSkcXoIiTTU43KhctTnij03e6iOzar4GjA6EJE4KdLFEUGl7au3Q==",
+      "type": "Package",
+      "files": [
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "content/MindSetUWP.sln",
+        "MindSetUWA/bin/ARM/Debug/MindSetUWA.dll",
+        "MindSetUWA/bin/ARM/Debug/MindSetUWA.pdb",
+        "MindSetUWA/bin/ARM/Debug/MindSetUWA.pri",
+        "MindSetUWA/bin/ARM/Debug/MindSetUWP.dll",
+        "MindSetUWA/bin/ARM/Debug/MindSetUWP.pdb",
+        "MindSetUWA/bin/ARM/Debug/MindSetUWP.pri",
+        "MindSetUWA/bin/Debug/MindSetUWA.dll",
+        "MindSetUWA/bin/Debug/MindSetUWA.pdb",
+        "MindSetUWA/bin/Debug/MindSetUWA.pri",
+        "MindSetUWA/bin/x64/Debug/MindSetUWA.dll",
+        "MindSetUWA/bin/x64/Debug/MindSetUWA.pdb",
+        "MindSetUWA/bin/x64/Debug/MindSetUWA.pri",
+        "MindSetUWA/bin/x64/Debug/MindSetUWP.dll",
+        "MindSetUWA/bin/x64/Debug/MindSetUWP.pdb",
+        "MindSetUWA/bin/x64/Debug/MindSetUWP.pri",
+        "MindSetUWA/bin/x86/Debug/MindSetUWA.dll",
+        "MindSetUWA/bin/x86/Debug/MindSetUWA.pdb",
+        "MindSetUWA/bin/x86/Debug/MindSetUWA.pri",
+        "MindSetUWA/ClassDiagram1.cd",
+        "MindSetUWA/Common/MindSetExtensions.cs",
+        "MindSetUWA/EMindSetStatus.cs",
+        "MindSetUWA/IMindwave.cs",
+        "MindSetUWA/MindSetConnect.cs",
+        "MindSetUWA/MindSetDataStruct.cs",
+        "MindSetUWA/MindSetEvents.cs",
+        "MindSetUWA/MindSetExceptions.cs",
+        "MindSetUWA/MindSetUWP.csproj",
+        "MindSetUWA/obj/ARM/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "MindSetUWA/obj/ARM/Debug/embed.resfiles",
+        "MindSetUWA/obj/ARM/Debug/embed.resfiles.intermediate",
+        "MindSetUWA/obj/ARM/Debug/layout.resfiles",
+        "MindSetUWA/obj/ARM/Debug/layout.resfiles.intermediate",
+        "MindSetUWA/obj/ARM/Debug/MindSetUWA.csproj.FileListAbsolute.txt",
+        "MindSetUWA/obj/ARM/Debug/MindSetUWA.csprojResolveAssemblyReference.cache",
+        "MindSetUWA/obj/ARM/Debug/MindSetUWA.dll",
+        "MindSetUWA/obj/ARM/Debug/MindSetUWA.pdb",
+        "MindSetUWA/obj/ARM/Debug/MindSetUWP.csproj.FileListAbsolute.txt",
+        "MindSetUWA/obj/ARM/Debug/MindSetUWP.dll",
+        "MindSetUWA/obj/ARM/Debug/MindSetUWP.pdb",
+        "MindSetUWA/obj/ARM/Debug/MultipleQualifiersPerDimensionFound.txt",
+        "MindSetUWA/obj/ARM/Debug/pri.resfiles",
+        "MindSetUWA/obj/ARM/Debug/pri.resfiles.intermediate",
+        "MindSetUWA/obj/ARM/Debug/priconfig.xml",
+        "MindSetUWA/obj/ARM/Debug/priconfig.xml.intermediate",
+        "MindSetUWA/obj/ARM/Debug/qualifiers.txt",
+        "MindSetUWA/obj/ARM/Debug/qualifiers.txt.intermediate",
+        "MindSetUWA/obj/ARM/Debug/resources.resfiles",
+        "MindSetUWA/obj/ARM/Debug/resources.resfiles.intermediate",
+        "MindSetUWA/obj/ARM/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs",
+        "MindSetUWA/obj/ARM/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs",
+        "MindSetUWA/obj/ARM/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs",
+        "MindSetUWA/obj/Debug/build.force",
+        "MindSetUWA/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "MindSetUWA/obj/Debug/embed.resfiles",
+        "MindSetUWA/obj/Debug/embed.resfiles.intermediate",
+        "MindSetUWA/obj/Debug/layout.resfiles",
+        "MindSetUWA/obj/Debug/layout.resfiles.intermediate",
+        "MindSetUWA/obj/Debug/MindSetUWA.csproj.FileListAbsolute.txt",
+        "MindSetUWA/obj/Debug/MindSetUWA.csprojResolveAssemblyReference.cache",
+        "MindSetUWA/obj/Debug/MindSetUWA.dll",
+        "MindSetUWA/obj/Debug/MindSetUWA.pdb",
+        "MindSetUWA/obj/Debug/MultipleQualifiersPerDimensionFound.txt",
+        "MindSetUWA/obj/Debug/pri.resfiles",
+        "MindSetUWA/obj/Debug/pri.resfiles.intermediate",
+        "MindSetUWA/obj/Debug/priconfig.xml",
+        "MindSetUWA/obj/Debug/priconfig.xml.intermediate",
+        "MindSetUWA/obj/Debug/qualifiers.txt",
+        "MindSetUWA/obj/Debug/qualifiers.txt.intermediate",
+        "MindSetUWA/obj/Debug/resources.resfiles",
+        "MindSetUWA/obj/Debug/resources.resfiles.intermediate",
+        "MindSetUWA/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs",
+        "MindSetUWA/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs",
+        "MindSetUWA/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs",
+        "MindSetUWA/obj/Debug/TempPE/_._",
+        "MindSetUWA/obj/x86/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "MindSetUWA/obj/x86/Debug/embed.resfiles",
+        "MindSetUWA/obj/x86/Debug/embed.resfiles.intermediate",
+        "MindSetUWA/obj/x86/Debug/layout.resfiles",
+        "MindSetUWA/obj/x86/Debug/layout.resfiles.intermediate",
+        "MindSetUWA/obj/x86/Debug/MindSetUWA.csproj.FileListAbsolute.txt",
+        "MindSetUWA/obj/x86/Debug/MindSetUWA.csprojResolveAssemblyReference.cache",
+        "MindSetUWA/obj/x86/Debug/MindSetUWA.dll",
+        "MindSetUWA/obj/x86/Debug/MindSetUWA.pdb",
+        "MindSetUWA/obj/x86/Debug/MultipleQualifiersPerDimensionFound.txt",
+        "MindSetUWA/obj/x86/Debug/pri.resfiles",
+        "MindSetUWA/obj/x86/Debug/pri.resfiles.intermediate",
+        "MindSetUWA/obj/x86/Debug/priconfig.xml",
+        "MindSetUWA/obj/x86/Debug/priconfig.xml.intermediate",
+        "MindSetUWA/obj/x86/Debug/qualifiers.txt",
+        "MindSetUWA/obj/x86/Debug/qualifiers.txt.intermediate",
+        "MindSetUWA/obj/x86/Debug/resources.resfiles",
+        "MindSetUWA/obj/x86/Debug/resources.resfiles.intermediate",
+        "MindSetUWA/obj/x86/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs",
+        "MindSetUWA/obj/x86/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs",
+        "MindSetUWA/obj/x86/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs",
+        "MindSetUWA/project.json",
+        "MindSetUWA/project.lock.json",
+        "MindSetUWA/Properties/AssemblyInfo.cs",
+        "MindSetUWA/Properties/MindSetUWA.rd.xml",
+        "MindSetUWP.nuspec",
+        "obj/Debug/_._",
+        "package/services/metadata/core-properties/d4ade713b28a4e5c91b4cbdbdc214fb3.psmdcp",
+        "x64/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "x64/Debug/embed.resfiles",
+        "x64/Debug/embed.resfiles.intermediate",
+        "x64/Debug/layout.resfiles",
+        "x64/Debug/layout.resfiles.intermediate",
+        "x64/Debug/MindSetUWA.csproj.FileListAbsolute.txt",
+        "x64/Debug/MindSetUWA.csprojResolveAssemblyReference.cache",
+        "x64/Debug/MindSetUWA.dll",
+        "x64/Debug/MindSetUWA.pdb",
+        "x64/Debug/MindSetUWP.csproj.FileListAbsolute.txt",
+        "x64/Debug/MindSetUWP.csprojResolveAssemblyReference.cache",
+        "x64/Debug/MindSetUWP.dll",
+        "x64/Debug/MindSetUWP.pdb",
+        "x64/Debug/MultipleQualifiersPerDimensionFound.txt",
+        "x64/Debug/pri.resfiles",
+        "x64/Debug/pri.resfiles.intermediate",
+        "x64/Debug/priconfig.xml",
+        "x64/Debug/priconfig.xml.intermediate",
+        "x64/Debug/qualifiers.txt",
+        "x64/Debug/qualifiers.txt.intermediate",
+        "x64/Debug/resources.resfiles",
+        "x64/Debug/resources.resfiles.intermediate",
+        "x64/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs",
+        "x64/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs",
+        "x64/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs"
+      ]
+    },
     "Microsoft.ApplicationInsights/1.0.0": {
       "sha512": "HZ47/thX57SOuIivSvIbsR6L9CCb/Yt3IyB2i4KHmmNlf3DO+lqFwWIKDdbDNWKX+qh0Rg20/JSMPK0dwUsYYw==",
       "type": "Package",
