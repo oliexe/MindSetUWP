@@ -9,6 +9,7 @@ using Microsoft.Xna.Framework.Storage;
 using System.Diagnostics;
 using Windows.System.Threading;
 using Windows.UI.Xaml;
+using SharpDX;
 #endregion
 
 namespace FlappyBird
@@ -127,7 +128,7 @@ namespace FlappyBird
                 case Statics.STATE.Exit:
                     {
                         Statics.GAME_CLOCK.Stop();
-                        this.Exit();
+                        
 
                         break;
                     }

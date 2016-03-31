@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="WinRTXamlToolkit.Controls.Gauge" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="WinRTXamlToolkit.Controls.Gauge">
+				<NamedResource name="WinRTXamlToolkit.Controls.Gauge.xr.xml" uri="ms-resource://WinRTXamlToolkit.Controls.Gauge/Files/WinRTXamlToolkit.Controls.Gauge/WinRTXamlToolkit.Controls.Gauge.xr.xml">
+					<Candidate type="Path">
+						<Value>WinRTXamlToolkit.Controls.Gauge\WinRTXamlToolkit.Controls.Gauge.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Properties">
+					<NamedResource name="WinRTXamlToolkit.Controls.Gauge.UWP.rd.xml" uri="ms-resource://WinRTXamlToolkit.Controls.Gauge/Files/WinRTXamlToolkit.Controls.Gauge/Properties/WinRTXamlToolkit.Controls.Gauge.UWP.rd.xml">
+						<Candidate type="Path">
+							<Value>WinRTXamlToolkit.Controls.Gauge\Properties\WinRTXamlToolkit.Controls.Gauge.UWP.rd.xml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://WinRTXamlToolkit.Controls.Gauge/Files/WinRTXamlToolkit.Controls.Gauge/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

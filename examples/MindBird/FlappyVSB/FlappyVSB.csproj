@@ -298,18 +298,10 @@
     <Folder Include="Content\Sounds\" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="MindSetUWA">
-      <HintPath>..\..\FlyingBird_MonoGame\FlyingBird_MonoGame\bin\x86\Debug\MindSetUWA.dll</HintPath>
-    </Reference>
-    <Reference Include="SharpDX">
-      <HintPath>..\..\..\..\..\.nuget\packages\MonoGame.Framework.WindowsUAP\3.4.0.459\lib\netcore\SharpDX.dll</HintPath>
-    </Reference>
-    <Reference Include="SharpDX.Direct2D1">
-      <HintPath>..\..\..\..\..\.nuget\packages\MonoGame.Framework.WindowsUAP\3.4.0.459\lib\netcore\MonoGame.Framework\SharpDX.Direct2D1.dll</HintPath>
-    </Reference>
-    <Reference Include="SharpDX.Direct3D11">
-      <HintPath>..\..\..\..\..\.nuget\packages\MonoGame.Framework.WindowsUAP\3.4.0.459\lib\netcore\SharpDX.Direct3D11.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\..\..\src\MindSetUWA\MindSetUWP.csproj">
+      <Project>{156981c0-e892-44f4-9f10-73b8671adf53}</Project>
+      <Name>MindSetUWP</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

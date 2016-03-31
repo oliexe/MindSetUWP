@@ -48,6 +48,9 @@
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
       <RootProperty Name="Background" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Frame" />
@@ -58,10 +61,16 @@
       <RootProperty Name="RowDefinitions" />
       <RootProperty Name="Margin" />
       <RootProperty Name="ColumnDefinitions" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
+      <RootMethod Name="GetColumnSpan" />
+      <RootMethod Name="SetColumnSpan" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
@@ -94,6 +103,15 @@
       <RootProperty Name="Unit" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Name" />
+      <RootProperty Name="NeedleBrush" />
+      <RootProperty Name="ScaleTickBrush" />
+      <RootProperty Name="ScaleBrush" />
+      <RootProperty Name="TickBrush" />
+      <RootProperty Name="TrailBrush" />
+      <RootProperty Name="ValueBrush" />
+      <RootProperty Name="ValueStringFormat" />
+      <RootProperty Name="UnitBrush" />
+      <RootProperty Name="VerticalAlignment" />
     </RootType>
     <RootType FullName="TestApp.Views.PageNotFound" />
     <RootType FullName="WinRTXamlToolkit.Controls.DataVisualization.Charting.AreaSeries">
@@ -101,6 +119,7 @@
       <RootProperty Name="IndependentValueBinding" />
       <RootProperty Name="DependentValueBinding" />
       <RootProperty Name="IsSelectionEnabled" />
+      <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="TestApp.Views.Start" />
   </Roots.RootTypes>

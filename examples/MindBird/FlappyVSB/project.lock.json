@@ -3,6 +3,7 @@
   "version": 1,
   "targets": {
     "UAP,Version=v10.0": {
+      "MindSetUWP/1.0.0": {},
       "Microsoft.ApplicationInsights/1.0.0": {
         "compile": {
           "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
@@ -232,7 +233,7 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "MonoGame.Framework.WindowsUAP/3.4.0.459": {
+      "MonoGame.Framework.WindowsUniversal/3.5.1.1679": {
         "compile": {
           "lib/netcore/MonoGame.Framework.dll": {}
         },
@@ -240,7 +241,7 @@
           "lib/netcore/MonoGame.Framework.dll": {}
         }
       },
-      "SharpDX/3.0.1": {
+      "SharpDX/3.0.2": {
         "compile": {
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.dll": {}
         },
@@ -248,9 +249,33 @@
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.dll": {}
         }
       },
-      "SharpDX.DXGI/3.0.1": {
+      "SharpDX.Direct2D1/3.0.2": {
         "dependencies": {
-          "SharpDX": "[3.0.1, )"
+          "SharpDX": "[3.0.2, )",
+          "SharpDX.DXGI": "[3.0.2, )"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct2D1.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct2D1.dll": {}
+        }
+      },
+      "SharpDX.Direct3D11/3.0.2": {
+        "dependencies": {
+          "SharpDX": "[3.0.2, )",
+          "SharpDX.DXGI": "[3.0.2, )"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct3D11.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct3D11.dll": {}
+        }
+      },
+      "SharpDX.DXGI/3.0.2": {
+        "dependencies": {
+          "SharpDX": "[3.0.2, )"
         },
         "compile": {
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.DXGI.dll": {}
@@ -259,9 +284,9 @@
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.DXGI.dll": {}
         }
       },
-      "SharpDX.XInput/3.0.1": {
+      "SharpDX.XInput/3.0.2": {
         "dependencies": {
-          "SharpDX": "[3.0.1, )"
+          "SharpDX": "[3.0.2, )"
         },
         "compile": {
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.XInput.dll": {}
@@ -1607,6 +1632,7 @@
       }
     },
     "UAP,Version=v10.0/win10-arm": {
+      "MindSetUWP/1.0.0": {},
       "Microsoft.ApplicationInsights/1.0.0": {
         "compile": {
           "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
@@ -1879,7 +1905,7 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "MonoGame.Framework.WindowsUAP/3.4.0.459": {
+      "MonoGame.Framework.WindowsUniversal/3.5.1.1679": {
         "compile": {
           "lib/netcore/MonoGame.Framework.dll": {}
         },
@@ -1887,7 +1913,7 @@
           "lib/netcore/MonoGame.Framework.dll": {}
         }
       },
-      "SharpDX/3.0.1": {
+      "SharpDX/3.0.2": {
         "compile": {
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.dll": {}
         },
@@ -1895,9 +1921,33 @@
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.dll": {}
         }
       },
-      "SharpDX.DXGI/3.0.1": {
+      "SharpDX.Direct2D1/3.0.2": {
         "dependencies": {
-          "SharpDX": "[3.0.1, )"
+          "SharpDX": "[3.0.2, )",
+          "SharpDX.DXGI": "[3.0.2, )"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct2D1.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct2D1.dll": {}
+        }
+      },
+      "SharpDX.Direct3D11/3.0.2": {
+        "dependencies": {
+          "SharpDX": "[3.0.2, )",
+          "SharpDX.DXGI": "[3.0.2, )"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct3D11.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct3D11.dll": {}
+        }
+      },
+      "SharpDX.DXGI/3.0.2": {
+        "dependencies": {
+          "SharpDX": "[3.0.2, )"
         },
         "compile": {
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.DXGI.dll": {}
@@ -1906,9 +1956,9 @@
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.DXGI.dll": {}
         }
       },
-      "SharpDX.XInput/3.0.1": {
+      "SharpDX.XInput/3.0.2": {
         "dependencies": {
-          "SharpDX": "[3.0.1, )"
+          "SharpDX": "[3.0.2, )"
         },
         "compile": {
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.XInput.dll": {}
@@ -3301,6 +3351,7 @@
       }
     },
     "UAP,Version=v10.0/win10-arm-aot": {
+      "MindSetUWP/1.0.0": {},
       "Microsoft.ApplicationInsights/1.0.0": {
         "compile": {
           "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
@@ -3559,7 +3610,7 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "MonoGame.Framework.WindowsUAP/3.4.0.459": {
+      "MonoGame.Framework.WindowsUniversal/3.5.1.1679": {
         "compile": {
           "lib/netcore/MonoGame.Framework.dll": {}
         },
@@ -3567,7 +3618,7 @@
           "lib/netcore/MonoGame.Framework.dll": {}
         }
       },
-      "SharpDX/3.0.1": {
+      "SharpDX/3.0.2": {
         "compile": {
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.dll": {}
         },
@@ -3575,9 +3626,33 @@
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.dll": {}
         }
       },
-      "SharpDX.DXGI/3.0.1": {
+      "SharpDX.Direct2D1/3.0.2": {
         "dependencies": {
-          "SharpDX": "[3.0.1, )"
+          "SharpDX": "[3.0.2, )",
+          "SharpDX.DXGI": "[3.0.2, )"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct2D1.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct2D1.dll": {}
+        }
+      },
+      "SharpDX.Direct3D11/3.0.2": {
+        "dependencies": {
+          "SharpDX": "[3.0.2, )",
+          "SharpDX.DXGI": "[3.0.2, )"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct3D11.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct3D11.dll": {}
+        }
+      },
+      "SharpDX.DXGI/3.0.2": {
+        "dependencies": {
+          "SharpDX": "[3.0.2, )"
         },
         "compile": {
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.DXGI.dll": {}
@@ -3586,9 +3661,9 @@
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.DXGI.dll": {}
         }
       },
-      "SharpDX.XInput/3.0.1": {
+      "SharpDX.XInput/3.0.2": {
         "dependencies": {
-          "SharpDX": "[3.0.1, )"
+          "SharpDX": "[3.0.2, )"
         },
         "compile": {
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.XInput.dll": {}
@@ -4967,6 +5042,7 @@
       }
     },
     "UAP,Version=v10.0/win10-x64": {
+      "MindSetUWP/1.0.0": {},
       "Microsoft.ApplicationInsights/1.0.0": {
         "compile": {
           "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
@@ -5244,7 +5320,7 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "MonoGame.Framework.WindowsUAP/3.4.0.459": {
+      "MonoGame.Framework.WindowsUniversal/3.5.1.1679": {
         "compile": {
           "lib/netcore/MonoGame.Framework.dll": {}
         },
@@ -5252,7 +5328,7 @@
           "lib/netcore/MonoGame.Framework.dll": {}
         }
       },
-      "SharpDX/3.0.1": {
+      "SharpDX/3.0.2": {
         "compile": {
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.dll": {}
         },
@@ -5260,9 +5336,33 @@
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.dll": {}
         }
       },
-      "SharpDX.DXGI/3.0.1": {
+      "SharpDX.Direct2D1/3.0.2": {
         "dependencies": {
-          "SharpDX": "[3.0.1, )"
+          "SharpDX": "[3.0.2, )",
+          "SharpDX.DXGI": "[3.0.2, )"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct2D1.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct2D1.dll": {}
+        }
+      },
+      "SharpDX.Direct3D11/3.0.2": {
+        "dependencies": {
+          "SharpDX": "[3.0.2, )",
+          "SharpDX.DXGI": "[3.0.2, )"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct3D11.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct3D11.dll": {}
+        }
+      },
+      "SharpDX.DXGI/3.0.2": {
+        "dependencies": {
+          "SharpDX": "[3.0.2, )"
         },
         "compile": {
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.DXGI.dll": {}
@@ -5271,9 +5371,9 @@
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.DXGI.dll": {}
         }
       },
-      "SharpDX.XInput/3.0.1": {
+      "SharpDX.XInput/3.0.2": {
         "dependencies": {
-          "SharpDX": "[3.0.1, )"
+          "SharpDX": "[3.0.2, )"
         },
         "compile": {
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.XInput.dll": {}
@@ -6666,6 +6766,7 @@
       }
     },
     "UAP,Version=v10.0/win10-x64-aot": {
+      "MindSetUWP/1.0.0": {},
       "Microsoft.ApplicationInsights/1.0.0": {
         "compile": {
           "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
@@ -6924,7 +7025,7 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "MonoGame.Framework.WindowsUAP/3.4.0.459": {
+      "MonoGame.Framework.WindowsUniversal/3.5.1.1679": {
         "compile": {
           "lib/netcore/MonoGame.Framework.dll": {}
         },
@@ -6932,7 +7033,7 @@
           "lib/netcore/MonoGame.Framework.dll": {}
         }
       },
-      "SharpDX/3.0.1": {
+      "SharpDX/3.0.2": {
         "compile": {
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.dll": {}
         },
@@ -6940,9 +7041,33 @@
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.dll": {}
         }
       },
-      "SharpDX.DXGI/3.0.1": {
+      "SharpDX.Direct2D1/3.0.2": {
         "dependencies": {
-          "SharpDX": "[3.0.1, )"
+          "SharpDX": "[3.0.2, )",
+          "SharpDX.DXGI": "[3.0.2, )"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct2D1.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct2D1.dll": {}
+        }
+      },
+      "SharpDX.Direct3D11/3.0.2": {
+        "dependencies": {
+          "SharpDX": "[3.0.2, )",
+          "SharpDX.DXGI": "[3.0.2, )"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct3D11.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct3D11.dll": {}
+        }
+      },
+      "SharpDX.DXGI/3.0.2": {
+        "dependencies": {
+          "SharpDX": "[3.0.2, )"
         },
         "compile": {
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.DXGI.dll": {}
@@ -6951,9 +7076,9 @@
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.DXGI.dll": {}
         }
       },
-      "SharpDX.XInput/3.0.1": {
+      "SharpDX.XInput/3.0.2": {
         "dependencies": {
-          "SharpDX": "[3.0.1, )"
+          "SharpDX": "[3.0.2, )"
         },
         "compile": {
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.XInput.dll": {}
@@ -8332,6 +8457,7 @@
       }
     },
     "UAP,Version=v10.0/win10-x86": {
+      "MindSetUWP/1.0.0": {},
       "Microsoft.ApplicationInsights/1.0.0": {
         "compile": {
           "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
@@ -8609,7 +8735,7 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "MonoGame.Framework.WindowsUAP/3.4.0.459": {
+      "MonoGame.Framework.WindowsUniversal/3.5.1.1679": {
         "compile": {
           "lib/netcore/MonoGame.Framework.dll": {}
         },
@@ -8617,7 +8743,7 @@
           "lib/netcore/MonoGame.Framework.dll": {}
         }
       },
-      "SharpDX/3.0.1": {
+      "SharpDX/3.0.2": {
         "compile": {
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.dll": {}
         },
@@ -8625,9 +8751,33 @@
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.dll": {}
         }
       },
-      "SharpDX.DXGI/3.0.1": {
+      "SharpDX.Direct2D1/3.0.2": {
         "dependencies": {
-          "SharpDX": "[3.0.1, )"
+          "SharpDX": "[3.0.2, )",
+          "SharpDX.DXGI": "[3.0.2, )"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct2D1.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct2D1.dll": {}
+        }
+      },
+      "SharpDX.Direct3D11/3.0.2": {
+        "dependencies": {
+          "SharpDX": "[3.0.2, )",
+          "SharpDX.DXGI": "[3.0.2, )"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct3D11.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct3D11.dll": {}
+        }
+      },
+      "SharpDX.DXGI/3.0.2": {
+        "dependencies": {
+          "SharpDX": "[3.0.2, )"
         },
         "compile": {
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.DXGI.dll": {}
@@ -8636,9 +8786,9 @@
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.DXGI.dll": {}
         }
       },
-      "SharpDX.XInput/3.0.1": {
+      "SharpDX.XInput/3.0.2": {
         "dependencies": {
-          "SharpDX": "[3.0.1, )"
+          "SharpDX": "[3.0.2, )"
         },
         "compile": {
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.XInput.dll": {}
@@ -10031,6 +10181,7 @@
       }
     },
     "UAP,Version=v10.0/win10-x86-aot": {
+      "MindSetUWP/1.0.0": {},
       "Microsoft.ApplicationInsights/1.0.0": {
         "compile": {
           "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
@@ -10289,7 +10440,7 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "MonoGame.Framework.WindowsUAP/3.4.0.459": {
+      "MonoGame.Framework.WindowsUniversal/3.5.1.1679": {
         "compile": {
           "lib/netcore/MonoGame.Framework.dll": {}
         },
@@ -10297,7 +10448,7 @@
           "lib/netcore/MonoGame.Framework.dll": {}
         }
       },
-      "SharpDX/3.0.1": {
+      "SharpDX/3.0.2": {
         "compile": {
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.dll": {}
         },
@@ -10305,9 +10456,33 @@
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.dll": {}
         }
       },
-      "SharpDX.DXGI/3.0.1": {
+      "SharpDX.Direct2D1/3.0.2": {
         "dependencies": {
-          "SharpDX": "[3.0.1, )"
+          "SharpDX": "[3.0.2, )",
+          "SharpDX.DXGI": "[3.0.2, )"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct2D1.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct2D1.dll": {}
+        }
+      },
+      "SharpDX.Direct3D11/3.0.2": {
+        "dependencies": {
+          "SharpDX": "[3.0.2, )",
+          "SharpDX.DXGI": "[3.0.2, )"
+        },
+        "compile": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct3D11.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct3D11.dll": {}
+        }
+      },
+      "SharpDX.DXGI/3.0.2": {
+        "dependencies": {
+          "SharpDX": "[3.0.2, )"
         },
         "compile": {
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.DXGI.dll": {}
@@ -10316,9 +10491,9 @@
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.DXGI.dll": {}
         }
       },
-      "SharpDX.XInput/3.0.1": {
+      "SharpDX.XInput/3.0.2": {
         "dependencies": {
-          "SharpDX": "[3.0.1, )"
+          "SharpDX": "[3.0.2, )"
         },
         "compile": {
           "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.XInput.dll": {}
@@ -11698,6 +11873,142 @@
     }
   },
   "libraries": {
+    "MindSetUWP/1.0.0": {
+      "sha512": "ZWC0rn2bce1qtkgtMyCehNWRQvsLmcmioVHSkcXoIiTTU43KhctTnij03e6iOzar4GjA6EJE4KdLFEUGl7au3Q==",
+      "type": "Package",
+      "files": [
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "content/MindSetUWP.sln",
+        "MindSetUWA/bin/ARM/Debug/MindSetUWA.dll",
+        "MindSetUWA/bin/ARM/Debug/MindSetUWA.pdb",
+        "MindSetUWA/bin/ARM/Debug/MindSetUWA.pri",
+        "MindSetUWA/bin/ARM/Debug/MindSetUWP.dll",
+        "MindSetUWA/bin/ARM/Debug/MindSetUWP.pdb",
+        "MindSetUWA/bin/ARM/Debug/MindSetUWP.pri",
+        "MindSetUWA/bin/Debug/MindSetUWA.dll",
+        "MindSetUWA/bin/Debug/MindSetUWA.pdb",
+        "MindSetUWA/bin/Debug/MindSetUWA.pri",
+        "MindSetUWA/bin/x64/Debug/MindSetUWA.dll",
+        "MindSetUWA/bin/x64/Debug/MindSetUWA.pdb",
+        "MindSetUWA/bin/x64/Debug/MindSetUWA.pri",
+        "MindSetUWA/bin/x64/Debug/MindSetUWP.dll",
+        "MindSetUWA/bin/x64/Debug/MindSetUWP.pdb",
+        "MindSetUWA/bin/x64/Debug/MindSetUWP.pri",
+        "MindSetUWA/bin/x86/Debug/MindSetUWA.dll",
+        "MindSetUWA/bin/x86/Debug/MindSetUWA.pdb",
+        "MindSetUWA/bin/x86/Debug/MindSetUWA.pri",
+        "MindSetUWA/ClassDiagram1.cd",
+        "MindSetUWA/Common/MindSetExtensions.cs",
+        "MindSetUWA/EMindSetStatus.cs",
+        "MindSetUWA/IMindwave.cs",
+        "MindSetUWA/MindSetConnect.cs",
+        "MindSetUWA/MindSetDataStruct.cs",
+        "MindSetUWA/MindSetEvents.cs",
+        "MindSetUWA/MindSetExceptions.cs",
+        "MindSetUWA/MindSetUWP.csproj",
+        "MindSetUWA/obj/ARM/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "MindSetUWA/obj/ARM/Debug/embed.resfiles",
+        "MindSetUWA/obj/ARM/Debug/embed.resfiles.intermediate",
+        "MindSetUWA/obj/ARM/Debug/layout.resfiles",
+        "MindSetUWA/obj/ARM/Debug/layout.resfiles.intermediate",
+        "MindSetUWA/obj/ARM/Debug/MindSetUWA.csproj.FileListAbsolute.txt",
+        "MindSetUWA/obj/ARM/Debug/MindSetUWA.csprojResolveAssemblyReference.cache",
+        "MindSetUWA/obj/ARM/Debug/MindSetUWA.dll",
+        "MindSetUWA/obj/ARM/Debug/MindSetUWA.pdb",
+        "MindSetUWA/obj/ARM/Debug/MindSetUWP.csproj.FileListAbsolute.txt",
+        "MindSetUWA/obj/ARM/Debug/MindSetUWP.dll",
+        "MindSetUWA/obj/ARM/Debug/MindSetUWP.pdb",
+        "MindSetUWA/obj/ARM/Debug/MultipleQualifiersPerDimensionFound.txt",
+        "MindSetUWA/obj/ARM/Debug/pri.resfiles",
+        "MindSetUWA/obj/ARM/Debug/pri.resfiles.intermediate",
+        "MindSetUWA/obj/ARM/Debug/priconfig.xml",
+        "MindSetUWA/obj/ARM/Debug/priconfig.xml.intermediate",
+        "MindSetUWA/obj/ARM/Debug/qualifiers.txt",
+        "MindSetUWA/obj/ARM/Debug/qualifiers.txt.intermediate",
+        "MindSetUWA/obj/ARM/Debug/resources.resfiles",
+        "MindSetUWA/obj/ARM/Debug/resources.resfiles.intermediate",
+        "MindSetUWA/obj/ARM/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs",
+        "MindSetUWA/obj/ARM/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs",
+        "MindSetUWA/obj/ARM/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs",
+        "MindSetUWA/obj/Debug/build.force",
+        "MindSetUWA/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "MindSetUWA/obj/Debug/embed.resfiles",
+        "MindSetUWA/obj/Debug/embed.resfiles.intermediate",
+        "MindSetUWA/obj/Debug/layout.resfiles",
+        "MindSetUWA/obj/Debug/layout.resfiles.intermediate",
+        "MindSetUWA/obj/Debug/MindSetUWA.csproj.FileListAbsolute.txt",
+        "MindSetUWA/obj/Debug/MindSetUWA.csprojResolveAssemblyReference.cache",
+        "MindSetUWA/obj/Debug/MindSetUWA.dll",
+        "MindSetUWA/obj/Debug/MindSetUWA.pdb",
+        "MindSetUWA/obj/Debug/MultipleQualifiersPerDimensionFound.txt",
+        "MindSetUWA/obj/Debug/pri.resfiles",
+        "MindSetUWA/obj/Debug/pri.resfiles.intermediate",
+        "MindSetUWA/obj/Debug/priconfig.xml",
+        "MindSetUWA/obj/Debug/priconfig.xml.intermediate",
+        "MindSetUWA/obj/Debug/qualifiers.txt",
+        "MindSetUWA/obj/Debug/qualifiers.txt.intermediate",
+        "MindSetUWA/obj/Debug/resources.resfiles",
+        "MindSetUWA/obj/Debug/resources.resfiles.intermediate",
+        "MindSetUWA/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs",
+        "MindSetUWA/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs",
+        "MindSetUWA/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs",
+        "MindSetUWA/obj/Debug/TempPE/_._",
+        "MindSetUWA/obj/x86/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "MindSetUWA/obj/x86/Debug/embed.resfiles",
+        "MindSetUWA/obj/x86/Debug/embed.resfiles.intermediate",
+        "MindSetUWA/obj/x86/Debug/layout.resfiles",
+        "MindSetUWA/obj/x86/Debug/layout.resfiles.intermediate",
+        "MindSetUWA/obj/x86/Debug/MindSetUWA.csproj.FileListAbsolute.txt",
+        "MindSetUWA/obj/x86/Debug/MindSetUWA.csprojResolveAssemblyReference.cache",
+        "MindSetUWA/obj/x86/Debug/MindSetUWA.dll",
+        "MindSetUWA/obj/x86/Debug/MindSetUWA.pdb",
+        "MindSetUWA/obj/x86/Debug/MultipleQualifiersPerDimensionFound.txt",
+        "MindSetUWA/obj/x86/Debug/pri.resfiles",
+        "MindSetUWA/obj/x86/Debug/pri.resfiles.intermediate",
+        "MindSetUWA/obj/x86/Debug/priconfig.xml",
+        "MindSetUWA/obj/x86/Debug/priconfig.xml.intermediate",
+        "MindSetUWA/obj/x86/Debug/qualifiers.txt",
+        "MindSetUWA/obj/x86/Debug/qualifiers.txt.intermediate",
+        "MindSetUWA/obj/x86/Debug/resources.resfiles",
+        "MindSetUWA/obj/x86/Debug/resources.resfiles.intermediate",
+        "MindSetUWA/obj/x86/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs",
+        "MindSetUWA/obj/x86/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs",
+        "MindSetUWA/obj/x86/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs",
+        "MindSetUWA/project.json",
+        "MindSetUWA/project.lock.json",
+        "MindSetUWA/Properties/AssemblyInfo.cs",
+        "MindSetUWA/Properties/MindSetUWA.rd.xml",
+        "MindSetUWP.nuspec",
+        "obj/Debug/_._",
+        "package/services/metadata/core-properties/d4ade713b28a4e5c91b4cbdbdc214fb3.psmdcp",
+        "x64/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "x64/Debug/embed.resfiles",
+        "x64/Debug/embed.resfiles.intermediate",
+        "x64/Debug/layout.resfiles",
+        "x64/Debug/layout.resfiles.intermediate",
+        "x64/Debug/MindSetUWA.csproj.FileListAbsolute.txt",
+        "x64/Debug/MindSetUWA.csprojResolveAssemblyReference.cache",
+        "x64/Debug/MindSetUWA.dll",
+        "x64/Debug/MindSetUWA.pdb",
+        "x64/Debug/MindSetUWP.csproj.FileListAbsolute.txt",
+        "x64/Debug/MindSetUWP.csprojResolveAssemblyReference.cache",
+        "x64/Debug/MindSetUWP.dll",
+        "x64/Debug/MindSetUWP.pdb",
+        "x64/Debug/MultipleQualifiersPerDimensionFound.txt",
+        "x64/Debug/pri.resfiles",
+        "x64/Debug/pri.resfiles.intermediate",
+        "x64/Debug/priconfig.xml",
+        "x64/Debug/priconfig.xml.intermediate",
+        "x64/Debug/qualifiers.txt",
+        "x64/Debug/qualifiers.txt.intermediate",
+        "x64/Debug/resources.resfiles",
+        "x64/Debug/resources.resfiles.intermediate",
+        "x64/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs",
+        "x64/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs",
+        "x64/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs"
+      ]
+    },
     "Microsoft.ApplicationInsights/1.0.0": {
       "sha512": "HZ47/thX57SOuIivSvIbsR6L9CCb/Yt3IyB2i4KHmmNlf3DO+lqFwWIKDdbDNWKX+qh0Rg20/JSMPK0dwUsYYw==",
       "type": "Package",
@@ -12401,8 +12712,8 @@
         "ref/xamarinmac20/_._"
       ]
     },
-    "MonoGame.Framework.WindowsUAP/3.4.0.459": {
-      "sha512": "zjc9aJbVDeFVIqoxqmjVWfetVjJfDI7k1TSv2bm7oTJtAVoDd6MHF+yEz5/KNIgv2KJ2BZEw71Tpr7E1T75aYQ==",
+    "MonoGame.Framework.WindowsUniversal/3.5.1.1679": {
+      "sha512": "ocVIHOGX1PA4HdvpI3/uKQVp6x1CPbmKvSdpk2bmpqHZ2PIOKqp5BjbkbOwKbZp8IdaLNbWQjG3Aonkezn2eBQ==",
       "type": "Package",
       "files": [
         "[Content_Types].xml",
@@ -12410,7 +12721,7 @@
         "lib/netcore/MonoGame.Framework.dll",
         "lib/netcore/MonoGame.Framework.pri",
         "lib/netcore/MonoGame.Framework.xml",
-        "lib/netcore/MonoGame.Framework.xr.xml",
+        "lib/netcore/MonoGame.Framework/MonoGame.Framework.xr.xml",
         "lib/netcore/MonoGame.Framework/Themes/generic.xbf",
         "lib/netcore/SharpDX.Direct2D1.dll",
         "lib/netcore/SharpDX.Direct3D11.dll",
@@ -12418,14 +12729,13 @@
         "lib/netcore/SharpDX.DXGI.dll",
         "lib/netcore/SharpDX.MediaFoundation.dll",
         "lib/netcore/SharpDX.XAudio2.dll",
-        "lib/netcore/SharpDX.XInput.dll",
-        "MonoGame.Framework.WindowsUAP.nuspec",
-        "package/services/metadata/core-properties/4927b4b972ff4a04a52e22bd23f42442.psmdcp",
+        "MonoGame.Framework.WindowsUniversal.nuspec",
+        "package/services/metadata/core-properties/510402184a574d668079e4fcc5a04e74.psmdcp",
         "readme.txt"
       ]
     },
-    "SharpDX/3.0.1": {
-      "sha512": "5x7J1DSUaarsoOFS7J37Sf4xDmHtEfjjCQCfH19FsMUUxVqhm1hX7KeY/PSwNCWklC5/bGxfrN0G+ZGcs90Apw==",
+    "SharpDX/3.0.2": {
+      "sha512": "nwELP2T20JtPHm+h+dQwabeNO1/UnKzWYP0LafIV73+fjww/G4yLcPedSRhgoK5H/pR8B5m4jOENUFqDmcq3fQ==",
       "type": "Package",
       "files": [
         "[Content_Types].xml",
@@ -12434,12 +12744,40 @@
         "lib/net45/SharpDX.xml",
         "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.dll",
         "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.xml",
-        "package/services/metadata/core-properties/13feec78450a4c4fb01da1be62103bc0.psmdcp",
+        "package/services/metadata/core-properties/77914d1587ce46e0a40f64e2bd799721.psmdcp",
         "SharpDX.nuspec"
       ]
     },
-    "SharpDX.DXGI/3.0.1": {
-      "sha512": "Rqwa8/yDxkynyjNQhg+Or/QqcIoC6UN2mzSVuKPsN3Fxrwj0KGAU4ywwCnCxJshRWjMg5u8FjN+K/Njsdfjouw==",
+    "SharpDX.Direct2D1/3.0.2": {
+      "sha512": "1wirLriplszcwF0wCgWXQ7iv6X+6T7PVZi65w0gmmVy3saN5cxqbB2ZwJJ5l5sgR/AiqRKQlfD7XaF/WRzrQCg==",
+      "type": "Package",
+      "files": [
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "lib/net45/SharpDX.Direct2D1.dll",
+        "lib/net45/SharpDX.Direct2D1.xml",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct2D1.dll",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct2D1.xml",
+        "package/services/metadata/core-properties/d0a192bd6db040b2aa8b1999b3834ef1.psmdcp",
+        "SharpDX.Direct2D1.nuspec"
+      ]
+    },
+    "SharpDX.Direct3D11/3.0.2": {
+      "sha512": "Ldg26j0XQc0nIn8LkDbB9ah0foq2m0NgcRjMsZuAUHwAUZgMoxlpYTKagUQspHd1j5LF8KLJOoJ3gCBdXPUYBA==",
+      "type": "Package",
+      "files": [
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "lib/net45/SharpDX.Direct3D11.dll",
+        "lib/net45/SharpDX.Direct3D11.xml",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct3D11.dll",
+        "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.Direct3D11.xml",
+        "package/services/metadata/core-properties/7c057324b23a49c299508be9b25efb47.psmdcp",
+        "SharpDX.Direct3D11.nuspec"
+      ]
+    },
+    "SharpDX.DXGI/3.0.2": {
+      "sha512": "DvkP5PBO1OuJT9tQBMNy9iweFpnedmlVRr+EO4kDvvLMf+kFVSnT0xHPA6KpN47KlVyuVck4xFsRB1rfrz1paA==",
       "type": "Package",
       "files": [
         "[Content_Types].xml",
@@ -12448,12 +12786,12 @@
         "lib/net45/SharpDX.DXGI.xml",
         "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.DXGI.dll",
         "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.DXGI.xml",
-        "package/services/metadata/core-properties/4c2c0d1327044c67b5909af9fa57625f.psmdcp",
+        "package/services/metadata/core-properties/25941a803cfc43fba3ef93ddd88359be.psmdcp",
         "SharpDX.DXGI.nuspec"
       ]
     },
-    "SharpDX.XInput/3.0.1": {
-      "sha512": "GBrcZLLUNU/HFL8mNVvTNdeDjfWBCK281ZfoTzWJU4i3ZbWtuI8KANWp4V9SC1kZCLsnWJfmT2q5ufYWcg6WFQ==",
+    "SharpDX.XInput/3.0.2": {
+      "sha512": "KerHQDvR5+WrzI4dQb4gUt3ymMKZxJmSXWeaahmKh/sYVyk9fYwh6Yg37t846bGleoRkeE8zpdshTOH9WTBtaQ==",
       "type": "Package",
       "files": [
         "[Content_Types].xml",
@@ -12462,7 +12800,7 @@
         "lib/net45/SharpDX.XInput.xml",
         "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.XInput.dll",
         "lib/portable-net45+netcore45+wpa81+MonoAndroid1+MonoTouch1/SharpDX.XInput.xml",
-        "package/services/metadata/core-properties/a01dafb534c1464ab5dfdd8acbedff70.psmdcp",
+        "package/services/metadata/core-properties/80fc8fb1fe19421ea435670c479bbd29.psmdcp",
         "SharpDX.XInput.nuspec"
       ]
     },
@@ -15168,9 +15506,12 @@
       "Microsoft.ApplicationInsights.PersistenceChannel >= 1.0.0",
       "Microsoft.ApplicationInsights.WindowsApps >= 1.0.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.0.0",
-      "MonoGame.Framework.WindowsUAP >= 3.4.0.459",
-      "SharpDX.DXGI >= 3.0.1",
-      "SharpDX.XInput >= 3.0.1"
+      "MonoGame.Framework.WindowsUniversal >= 3.5.1.1679",
+      "SharpDX >= 3.0.2",
+      "SharpDX.Direct2D1 >= 3.0.2",
+      "SharpDX.Direct3D11 >= 3.0.2",
+      "SharpDX.DXGI >= 3.0.2",
+      "SharpDX.XInput >= 3.0.2"
     ],
     "UAP,Version=v10.0": []
   }

@@ -11,7 +11,7 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-        <Grid>
+        <Grid Margin="10,45,0,0">
             <Grid.RowDefinitions>
                 <RowDefinition
                 Height="auto" />
@@ -24,27 +24,27 @@
             </Grid.RowDefinitions>
             <Grid
             Grid.Row="1"
-            Margin="0 0 0 10">
+            Margin="0,27,0,38">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition
                     Width="20" />
                     <ColumnDefinition
-                    Width="*" />
+                    Width="453*" />
                     <ColumnDefinition
                     Width="20" />
                     <ColumnDefinition
-                    Width="*" />
+                    Width="453*" />
                     <ColumnDefinition
-                    Width="20" />
+                    Width="0" />
                     <ColumnDefinition
-                    Width="*" />
+                    Width="473*" />
                     <ColumnDefinition
                     Width="20" />
                 </Grid.ColumnDefinitions>
                 <Border
                 Grid.Column="1"
                 Background="White"
-                Margin="0">
+                Margin="0,0,0.333,0">
                     <controls:Gauge
                         Name="AttenGauge"
                     Minimum="0"
@@ -56,7 +56,26 @@
                 <Border
                 Grid.Column="5"
                 Background="White"
-                Margin="0">
+                Margin="0.667,0,17.667,0">
+                    <controls:Gauge
+                		x:Name="SignalGauge"
+                		Minimum="0"
+                		Maximum="100"
+                		Value="{Binding Value}"
+                		NeedleBrush="Transparent"
+                		ScaleTickBrush="Black"
+                		ScaleBrush="DarkSlateGray"
+                		TickBrush="Transparent"
+                		TrailBrush="DarkSeaGreen"
+                		ValueBrush="DarkSeaGreen"
+                		ValueStringFormat="N1"
+                		Unit="Signal Quality"
+                		UnitBrush="DarkGray" Margin="0,0,-0.667,-0.333" VerticalAlignment="Bottom"/>
+                </Border>
+                <Border
+                Grid.Column="3"
+                Background="White"
+                Margin="0.667,0,17.667,0">
                     <controls:Gauge
                         Name="MeditGauge"
                     Minimum="0"
@@ -65,45 +84,43 @@
                     Value="{Binding Value}"
                     Unit="Meditation" />
                 </Border>
-                <Border
-                Grid.Column="3"
-                Background="White"
-                Margin="0">
-                    <controls:Gauge
-                        Name="SignalQual"
-                    Minimum="0"
-                    Maximum="255"
-                    Height="{Binding Size}"
-                    Value="{Binding Value}"
-                    Unit="Signal Quality" />
-                </Border>
             </Grid>
-           
+
             <Grid
-            Grid.Row="2"
-            Margin="0 10 0 0">
+            Grid.Row="2" Margin="0,37,0,0">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition
-                    Width="*" />
+                    Width="137*" />
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="542*"/>
+                    <ColumnDefinition Width="187*"/>
+                    <ColumnDefinition Width="573*"/>
                 </Grid.ColumnDefinitions>
                 <Border
-                Grid.Column="3"
-                Background="Gainsboro"
-                Margin="0">
+                Background="Gainsboro" Grid.ColumnSpan="5" Margin="-9,-37,0,0">
                     <charting:Chart
                 x:Name="AreaChart"
-                Title="Raw brain values"
-                Margin="70,0">
+                Title="Raw Brain Values"
+                Margin="-10,-10,10,-14.667">
                         <charting:AreaSeries
                     Title=""
                     IndependentValueBinding="{Binding Name}"
                     DependentValueBinding="{Binding Value}"
-                    IsSelectionEnabled="True" />
+                    IsSelectionEnabled="True" Margin="10,0,-51,-0.333" />
                     </charting:Chart>
                 </Border>
             </Grid>
 
-          
+
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="63" VerticalAlignment="Top" Width="1440">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="389*"/>
+                <ColumnDefinition Width="91*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="button" Content="Connect" HorizontalAlignment="Left" Height="36" Margin="27,10,0,0" VerticalAlignment="Top" Width="138" Click="button_Click_1"/>
+            <Button x:Name="button1" Content="Record" HorizontalAlignment="Right" Height="36" Margin="0,10,838.333,0" VerticalAlignment="Top" Width="142" Click="button1_Click"/>
+            <Button x:Name="button3" Content="Button" HorizontalAlignment="Stretch" Height="36" Margin="946.667,17,-719,0" VerticalAlignment="Top" Grid.Column="1"/>
         </Grid>
 
 

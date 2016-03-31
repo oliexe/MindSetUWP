@@ -1,0 +1,2 @@
+C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\TestApp.csproj;x86
+C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\MindSetUWP.csproj;x86

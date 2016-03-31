@@ -426,3 +426,4 @@ C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\obj\x86\Debu
 C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\bin\x86\Debug\MindSetUWP.dll
 C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\bin\x86\Debug\MindSetUWP.pdb
 C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\bin\x86\Debug\MindSetUWP.pri
+C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\obj\x86\Debug\WinRTXamlToolkit.Controls.DataVisualization\en-US\WinRTXamlToolkit.Controls.DataVisualization.Properties.Resources.resw

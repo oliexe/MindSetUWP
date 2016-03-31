@@ -4,9 +4,12 @@
     "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
     "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0",
-    "MonoGame.Framework.WindowsUAP": "3.4.0.459",
-    "SharpDX.DXGI": "3.0.1",
-    "SharpDX.XInput": "3.0.1"
+    "MonoGame.Framework.WindowsUniversal": "3.5.1.1679",
+    "SharpDX": "3.0.2",
+    "SharpDX.Direct2D1": "3.0.2",
+    "SharpDX.Direct3D11": "3.0.2",
+    "SharpDX.DXGI": "3.0.2",
+    "SharpDX.XInput": "3.0.2"
   },
   "frameworks": {
     "uap10.0": {}

@@ -351,6 +351,9 @@
     <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\bin\x86\Debug\MindSetUWP.dll">
       <PackagePath>MindSetUWP.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\Assets\mindsetuwp.jpg">
+      <PackagePath>Assets\mindsetuwp.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>

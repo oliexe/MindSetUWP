@@ -45,7 +45,9 @@
                 <Border
                 Grid.Column="1"
                 Background="White"
-                Margin="0"/>
+                Margin="0">
+                    <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Height="102" Margin="108,128,0,0" VerticalAlignment="Top" Width="252" Click="button_Click"/>
+                </Border>
                 <Border
                 Grid.Column="5"
                 Background="White"

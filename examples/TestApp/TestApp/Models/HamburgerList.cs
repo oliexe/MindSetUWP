@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MindSetUWA;
 
 namespace TestApp.Models
 {
@@ -15,7 +16,7 @@ namespace TestApp.Models
         {
             MenuItems = new List<HamburgerItem>() {
                 new HamburgerItem("\uE1CE","Realtime", typeof(Start)),
-                new HamburgerItem("\uE1CF","Recording", typeof(PageNotFound))
+                new HamburgerItem("\uE104","Recording", typeof(PageNotFound))
             };
         }
     }

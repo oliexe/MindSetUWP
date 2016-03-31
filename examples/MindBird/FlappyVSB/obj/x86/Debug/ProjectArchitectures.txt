@@ -1,0 +1,2 @@
+C:\Users\olire\Documents\GitHub\MindSetUWP\examples\MindBird\FlappyVSB\FlappyVSB.csproj;x86
+C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\MindSetUWP.csproj;x86

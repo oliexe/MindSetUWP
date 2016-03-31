@@ -18,6 +18,7 @@ using MindSetUWA;
 using System.Threading;
 using Windows.System.Threading;
 using Windows.UI.Core;
+using TestApp;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -41,42 +42,28 @@ namespace TestApp.Views
                 action.Invoke();
         }
 
-        MindSetConnection connection = new MindSetConnection();
+        public MindSetConnection connection = new MindSetConnection();
 
         public int enlapsedTime;
         private DispatcherTimer dispatch;
 
         public delegate void MyCallback();
         public delegate void MyCallback2(int value);
-        public MyCallback OnStartTime;
-        public MyCallback OnStopTime;
-        public MyCallback OnEndTime;
-        public MyCallback2 OnCountTime;
-        public Boolean started = false;
-        private double _value;
+        public Boolean started = false;       
 
         public Start()
         {
             this.InitializeComponent();
-            enlapsedTime = 0;
-            dispatch = new DispatcherTimer();
-            dispatch.Interval = new TimeSpan(0, 0, 0, 0, 200) ;
-            dispatch.Tick += timer_Tick;
-            dispatch.Start();
-
+     
         }
-
-       
 
         private void timer_Tick(object sender, object e)
         {
-
             if (!started)
-                  {
-                connection.ConnectBluetooth("MindWave Mobile");
-                started = true;
+            {
+            connection.ConnectBluetooth("MindWave Mobile");
+            started = true;
             }
-
             var items = new List<NameValueItem>();
             items.Clear();
             items.Add(new NameValueItem { Name = "Delta", Value = connection.RealtimeData.Delta });
@@ -88,12 +75,33 @@ namespace TestApp.Views
             items.Add(new NameValueItem { Name = "Beta(Low)", Value = connection.RealtimeData.BetaLow });
             items.Add(new NameValueItem { Name = "Gamma(Low)", Value = connection.RealtimeData.GammaLow });
             items.Add(new NameValueItem { Name = "Gamma(Mid)", Value = connection.RealtimeData.GammaMid });
-            this.SignalQual.Value = connection.RealtimeData.Quality;
+            this.SignalGauge.Value = 100 - connection.RealtimeData.Quality / 2;
             this.AttenGauge.Value = connection.RealtimeData.Attention;
             this.MeditGauge.Value = connection.RealtimeData.Meditation;
             RunIfSelected(this.AreaChart, () => ((AreaSeries)this.AreaChart.Series[0]).ItemsSource = items); ;
         }
 
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            enlapsedTime = 0;
+            dispatch = new DispatcherTimer();
+            dispatch.Interval = new TimeSpan(0, 0, 0, 0, 200);
+            dispatch.Tick += timer_Tick;
+            dispatch.Start();
+        }
 
+        private void button_Click_1(object sender, RoutedEventArgs e)
+        {
+            enlapsedTime = 0;
+            dispatch = new DispatcherTimer();
+            dispatch.Interval = new TimeSpan(0, 0, 0, 0, 200);
+            dispatch.Tick += timer_Tick;
+            dispatch.Start();
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

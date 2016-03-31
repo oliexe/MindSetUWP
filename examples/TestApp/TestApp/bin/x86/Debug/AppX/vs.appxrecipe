@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>c3dd2a7b-8f45-4d39-890c-2bf9fcf181ea</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\obj\x86\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>7AB3A778A8948097B9E718FC64D2452C51ECBA03BA863DF0BBDB132C78BD0FE8</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>2A105E1A656D10C6CB0E5362279B2B3E571AC2214CDB45379FA1F9FF34CF100E</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>c3dd2a7b-8f45-4d39-890c-2bf9fcf181ea_1.0.0.0_x86__6mav8j605xvkc</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>c3dd2a7b-8f45-4d39-890c-2bf9fcf181ea_6mav8j605xvkc!App</RegisteredUserModeAppID>
     <RegisteredPackageID>c3dd2a7b-8f45-4d39-890c-2bf9fcf181ea</RegisteredPackageID>
@@ -22,13 +22,13 @@
     <AppXManifest Include="C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-03-30T00:13:13.342</Modified>
+      <Modified>2016-03-30T10:47:45.580</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\bin\x86\Debug\TestApp.exe">
       <PackagePath>entrypoint\TestApp.exe</PackagePath>
-      <Modified>2016-03-30T00:13:10.997</Modified>
+      <Modified>2016-03-30T10:47:44.842</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\olire\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -468,7 +468,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\bin\x86\Debug\MindSetUWP.dll">
       <PackagePath>MindSetUWP.dll</PackagePath>
-      <Modified>2016-03-29T22:50:01.870</Modified>
+      <Modified>2016-03-30T07:54:47.904</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\Assets\mindsetuwp.jpg">
+      <PackagePath>Assets\mindsetuwp.jpg</PackagePath>
+      <Modified>2016-03-30T10:04:55.380</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -514,7 +518,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\bin\x86\Debug\TestApp.xr.xml">
       <PackagePath>TestApp.xr.xml</PackagePath>
-      <Modified>2016-03-30T00:08:35.401</Modified>
+      <Modified>2016-03-30T10:15:01.826</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -546,11 +550,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-03-30T00:11:14.029</Modified>
+      <Modified>2016-03-30T10:29:27.697</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\bin\x86\Debug\Core\TestApp.exe">
       <PackagePath>TestApp.exe</PackagePath>
-      <Modified>2016-03-30T00:13:13.338</Modified>
+      <Modified>2016-03-30T10:47:45.577</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

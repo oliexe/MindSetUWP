@@ -1,7 +1,6 @@
 C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\bin\x86\Debug\MindSetUWP.dll
 C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\bin\x86\Debug\MindSetUWP.pdb
 C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\bin\x86\Debug\MindSetUWP.pri
-C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\obj\x86\Debug\MindSetUWP.csprojResolveAssemblyReference.cache
 C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\obj\x86\Debug\MindSetUWP.dll
 C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\obj\x86\Debug\MindSetUWP.pdb
 C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\obj\x86\Debug\priconfig.xml
