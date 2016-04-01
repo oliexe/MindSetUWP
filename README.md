@@ -1,3 +1,6 @@
+
+![Logo](https://cloud.githubusercontent.com/assets/441290/14204753/a2e3fb4c-f806-11e5-97a0-d78f83d5b533.jpg)
+
 Visit GitHub Page : http://olirehacek.github.io/MindSetUWP/
 
 MindWaveUWP makes your universal Windows apps smarter and helps them to read user brainwave data using Bluetooth EEG sensors. The library is specifically designed to be very easy, fast and deployable with minimal alterations of your already working code. With only 2 extra lines of code your application can be ready to recieve and process users brainwave data. The library does not work only with real-time EEG readings, but also provides built-in data recording for long-term data analysis.
