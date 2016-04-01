@@ -1,0 +1,17 @@
+C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\bin\Debug\MindSetUWP.dll
+C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\bin\Debug\MindSetUWP.pdb
+C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\bin\Debug\MindSetUWP.pri
+C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\obj\Debug\MindSetUWP.csprojResolveAssemblyReference.cache
+C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\obj\Debug\MindSetUWP.dll
+C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\obj\Debug\MindSetUWP.pdb
+C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\obj\Debug\priconfig.xml
+C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\obj\Debug\priconfig.xml.intermediate
+C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\obj\Debug\layout.resfiles
+C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\obj\Debug\layout.resfiles.intermediate
+C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\obj\Debug\resources.resfiles
+C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\obj\Debug\resources.resfiles.intermediate
+C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\obj\Debug\pri.resfiles
+C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\obj\Debug\pri.resfiles.intermediate
+C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\obj\Debug\qualifiers.txt
+C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\obj\Debug\qualifiers.txt.intermediate
+C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\obj\Debug\MultipleQualifiersPerDimensionFound.txt

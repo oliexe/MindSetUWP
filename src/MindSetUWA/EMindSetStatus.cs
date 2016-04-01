@@ -1,4 +1,4 @@
-﻿namespace MindSetUWA
+﻿namespace MindSetUWP
 {
     //DODĚLAT
     public enum EMindSetStatus

@@ -166,7 +166,7 @@ namespace TestApp.TestApp_XamlTypeInfo
             _typeNameTable[6] = "TestApp.MainPage";
             _typeNameTable[7] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[8] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[9] = "MindSetUWA.MindSetConnection";
+            _typeNameTable[9] = "MindSetUWP.MindSetConnection";
             _typeNameTable[10] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart";
             _typeNameTable[11] = "Windows.UI.Xaml.Controls.Control";
             _typeNameTable[12] = "System.Collections.ObjectModel.Collection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries>";
@@ -221,7 +221,7 @@ namespace TestApp.TestApp_XamlTypeInfo
             _typeTable[6] = typeof(global::TestApp.MainPage);
             _typeTable[7] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[8] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[9] = typeof(global::MindSetUWA.MindSetConnection);
+            _typeTable[9] = typeof(global::MindSetUWP.MindSetConnection);
             _typeTable[10] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart);
             _typeTable[11] = typeof(global::Windows.UI.Xaml.Controls.Control);
             _typeTable[12] = typeof(global::System.Collections.ObjectModel.Collection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries>);
@@ -302,7 +302,7 @@ namespace TestApp.TestApp_XamlTypeInfo
         private object Activate_0_HamburgerList() { return new global::TestApp.Models.HamburgerList(); }
         private object Activate_3_List() { return new global::System.Collections.Generic.List<global::TestApp.Models.HamburgerItem>(); }
         private object Activate_6_MainPage() { return new global::TestApp.MainPage(); }
-        private object Activate_9_MindSetConnection() { return new global::MindSetUWA.MindSetConnection(); }
+        private object Activate_9_MindSetConnection() { return new global::MindSetUWP.MindSetConnection(); }
         private object Activate_10_Chart() { return new global::WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart(); }
         private object Activate_12_Collection() { return new global::System.Collections.ObjectModel.Collection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries>(); }
         private object Activate_14_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::System.Object>(); }
@@ -443,7 +443,7 @@ namespace TestApp.TestApp_XamlTypeInfo
                 xamlType = new global::TestApp.TestApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 9:   //  MindSetUWA.MindSetConnection
+            case 9:   //  MindSetUWP.MindSetConnection
                 userType = new global::TestApp.TestApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
@@ -1400,7 +1400,7 @@ namespace TestApp.TestApp_XamlTypeInfo
                 break;
             case "TestApp.MainPage.ToHeadset":
                 userType = (global::TestApp.TestApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TestApp.MainPage");
-                xamlMember = new global::TestApp.TestApp_XamlTypeInfo.XamlMember(this, "ToHeadset", "MindSetUWA.MindSetConnection");
+                xamlMember = new global::TestApp.TestApp_XamlTypeInfo.XamlMember(this, "ToHeadset", "MindSetUWP.MindSetConnection");
                 xamlMember.Getter = get_5_MainPage_ToHeadset;
                 xamlMember.SetIsReadOnly();
                 break;

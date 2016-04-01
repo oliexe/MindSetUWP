@@ -14,7 +14,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using WinRTXamlToolkit.Tools;
-using MindSetUWA;
+using MindSetUWP;
 using System.Threading;
 using Windows.System.Threading;
 using Windows.UI.Core;

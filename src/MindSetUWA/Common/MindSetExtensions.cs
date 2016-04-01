@@ -1,6 +1,6 @@
 ﻿using Windows.Storage.Streams;
 
-namespace MindSetUWA.Common
+namespace MindSetUWP.Common
 {
     public static class BufferBytes
     {

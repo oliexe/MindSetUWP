@@ -1,4 +1,4 @@
-﻿using MindSetUWA.Common;
+﻿using MindSetUWP.Common;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -13,7 +13,7 @@ using Windows.Networking.Sockets;
 using Windows.Storage;
 using Windows.Storage.Streams;
 
-namespace MindSetUWA
+namespace MindSetUWP
 {
     public partial class MindSetConnection : IMindwave
     {

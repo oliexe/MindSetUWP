@@ -7,7 +7,7 @@
     <ProjectGuid>{156981C0-E892-44F4-9F10-73B8671ADF53}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MindSetUWP</RootNamespace>
+    <RootNamespace>MindSetUWA</RootNamespace>
     <AssemblyName>MindSetUWP</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>

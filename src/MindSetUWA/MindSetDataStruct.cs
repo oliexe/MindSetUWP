@@ -3,7 +3,7 @@ using System.Xml.Serialization;
 using System.IO;
 using System.Runtime.Serialization;
 
-namespace MindSetUWA
+namespace MindSetUWP
 {
     public class MindsetDataStruct 
     {

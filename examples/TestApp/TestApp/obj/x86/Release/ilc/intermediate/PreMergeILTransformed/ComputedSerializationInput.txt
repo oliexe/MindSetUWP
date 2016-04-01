@@ -1,0 +1,3 @@
+"/t:System.Object,System.Runtime,xml"
+"/t:System.Object,System.Runtime,dcs"
+"/t:System.Object,System.Runtime,json"

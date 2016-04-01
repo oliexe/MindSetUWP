@@ -22,7 +22,7 @@
     <AppXManifest Include="C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\bin\x86\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-03-30T10:51:06.212</Modified>
+      <Modified>2016-04-01T10:52:12.350</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -70,23 +70,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\bin\x86\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-03-30T10:30:37.954</Modified>
+      <Modified>2016-04-01T10:48:05.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\bin\x86\Release\ilc\TestApp.dll">
       <PackagePath>TestApp.dll</PackagePath>
-      <Modified>2016-03-30T10:51:04.798</Modified>
+      <Modified>2016-04-01T10:52:10.649</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\bin\x86\Release\ilc\TestApp.exe">
       <PackagePath>TestApp.exe</PackagePath>
-      <Modified>2016-03-30T10:51:06.178</Modified>
+      <Modified>2016-04-01T10:52:12.304</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\bin\x86\Release\ilc\_Resources\0.rsrc">
       <PackagePath>_Resources\0.rsrc</PackagePath>
-      <Modified>2016-03-30T10:50:10.660</Modified>
+      <Modified>2016-04-01T10:50:41.251</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\bin\x86\Release\ilc\_Resources\index.txt">
       <PackagePath>_Resources\index.txt</PackagePath>
-      <Modified>2016-03-30T10:50:10.660</Modified>
+      <Modified>2016-04-01T10:50:41.257</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

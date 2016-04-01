@@ -14,3 +14,4 @@ C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\obj\x86\Release\pri.re
 C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\obj\x86\Release\qualifiers.txt
 C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\obj\x86\Release\qualifiers.txt.intermediate
 C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\obj\x86\Release\MultipleQualifiersPerDimensionFound.txt
+C:\Users\olire\Documents\GitHub\MindSetUWP\src\MindSetUWA\obj\x86\Release\MindSetUWP.csprojResolveAssemblyReference.cache

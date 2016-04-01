@@ -1,7 +1,7 @@
 ﻿using System;
 using Windows.Networking;
 
-namespace MindSetUWA
+namespace MindSetUWP
 {
     public interface IMindwave : IDisposable
     {
