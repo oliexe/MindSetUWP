@@ -22,7 +22,7 @@
     <AppXManifest Include="C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\bin\x86\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-04-01T10:52:12.350</Modified>
+      <Modified>2016-04-25T22:45:26.939</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -74,19 +74,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\bin\x86\Release\ilc\TestApp.dll">
       <PackagePath>TestApp.dll</PackagePath>
-      <Modified>2016-04-01T10:52:10.649</Modified>
+      <Modified>2016-04-25T22:45:25.652</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\bin\x86\Release\ilc\TestApp.exe">
       <PackagePath>TestApp.exe</PackagePath>
-      <Modified>2016-04-01T10:52:12.304</Modified>
+      <Modified>2016-04-25T22:45:26.900</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\bin\x86\Release\ilc\_Resources\0.rsrc">
       <PackagePath>_Resources\0.rsrc</PackagePath>
-      <Modified>2016-04-01T10:50:41.251</Modified>
+      <Modified>2016-04-25T22:44:32.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\olire\Documents\GitHub\MindSetUWP\examples\TestApp\TestApp\bin\x86\Release\ilc\_Resources\index.txt">
       <PackagePath>_Resources\index.txt</PackagePath>
-      <Modified>2016-04-01T10:50:41.257</Modified>
+      <Modified>2016-04-25T22:44:32.934</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
